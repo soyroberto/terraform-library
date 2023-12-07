@@ -1,6 +1,30 @@
+
+terraform {
+  cloud {
+    organization = "soyroberto"
+
+    workspaces {
+      name = "az2"
+    }
+  }
+}
+
+variable "ARM_SUBSCRIPTION_ID" {
+  description = "Azure Subscription ID"
+  type        = string
+}
+resource "random_pet" "rg_name" {
+length = 1
+}
+
+resource "random_pet" "rg_name2" {
+length = 1
+}
+
 #Resource Groups
+
 resource "azurerm_resource_group" "rg1" {
-  name     = var.azure-rg-1
+  name     = random_pet.rg_name.id
   location = var.loc1
   tags = {
     Environment = var.environment_tag
@@ -9,7 +33,8 @@ resource "azurerm_resource_group" "rg1" {
 }
 #Resource Groups
 resource "azurerm_resource_group" "rg2" {
-  name     = var.azure-rg-2
+  name     = random_pet.rg_name2.id
+
   location = var.loc1
   tags = {
     Environment = var.environment_tag
@@ -119,6 +144,19 @@ resource "azurerm_network_security_group" "region1-nsg" {
     destination_address_prefix = "*"
   }
   security_rule {
+    name                       = "TLS-In"
+    priority                   = 102
+    direction                  = "Inbound"
+    access                     = "Allow"
+    protocol                   = "*"
+    source_port_range          = "*"
+    destination_port_range     = "443"
+    source_address_prefix      = "*"
+    destination_address_prefix = "*"
+  }
+
+
+  security_rule {
     name                       = "RDP-In"
     priority                   = 101
     direction                  = "Inbound"
@@ -160,13 +198,14 @@ resource "random_id" "kvname" {
   byte_length = 5
   prefix      = "r1-kv-"
 }
+
 #Keyvault Creation
 data "azurerm_client_config" "current" {}
 resource "azurerm_key_vault" "kv1" {
   depends_on                  = [azurerm_resource_group.rg2]
   name                        = random_id.kvname.hex
   location                    = var.loc1
-  resource_group_name         = var.azure-rg-2
+  resource_group_name         = random_pet.rg_name2.id
   enabled_for_disk_encryption = true
   tenant_id                   = data.azurerm_client_config.current.tenant_id
   soft_delete_retention_days  = 7
@@ -305,7 +344,7 @@ resource "azurerm_virtual_machine_extension" "region1-web01-basesetup" {
   settings = <<SETTINGS
     {
         "fileUris": [
-          "https://raw.githubusercontent.com/jakewalsh90/Terraform-Azure/main/PowerShell/webserver_VMSetup.ps1"
+          "https://raw.githubusercontent.com/soyroberto/tfsam/main/PowerShell/webserver_VMSetup.ps1"
         ]
     }
   SETTINGS
