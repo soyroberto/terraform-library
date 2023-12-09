@@ -143,7 +143,7 @@ resource "azurerm_network_security_group" "region1-nsg" {
     source_address_prefix      = "*"
     destination_address_prefix = "*"
   }
-  security_rule {
+ security_rule {
     name                       = "TLS-In"
     priority                   = 102
     direction                  = "Inbound"

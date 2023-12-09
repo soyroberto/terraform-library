@@ -1,6 +1,5 @@
 environment_tag             = "soyroberto-IIS-DemoLab"
 azure-rg-1                  = "webdemo-labv1-region1infra"
-#Razure-rg-2                  = "webdemo-labv1-security"
 loc1                        = "australiaeast"
 region1-vnet1-name          = "r1-vnet1-hub1"
 region1-vnet2-name          = "r1-vnet1-spoke1"
