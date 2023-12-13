@@ -1,0 +1,931 @@
+2023-10-20T09:48:53.667+1100 [INFO]  Terraform version: 1.5.7
+2023-10-20T09:48:53.667+1100 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2023-10-20T09:48:53.667+1100 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2023-10-20T09:48:53.667+1100 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2023-10-20T09:48:53.667+1100 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2023-10-20T09:48:53.667+1100 [INFO]  Go runtime version: go1.20.7
+2023-10-20T09:48:53.667+1100 [INFO]  CLI args: []string{"/opt/homebrew/bin/terraform", "state"}
+2023-10-20T09:48:53.667+1100 [TRACE] Stdout is a terminal of width 166
+2023-10-20T09:48:53.667+1100 [TRACE] Stderr is a terminal of width 166
+2023-10-20T09:48:53.667+1100 [TRACE] Stdin is a terminal
+2023-10-20T09:48:53.667+1100 [DEBUG] Attempting to open CLI config file: /Users/roberto/.terraformrc
+2023-10-20T09:48:53.667+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraformrc
+2023-10-20T09:48:53.668+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraform.d/credentials.tfrc.json
+2023-10-20T09:48:53.669+1100 [DEBUG] checking for credentials in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T09:48:53.669+1100 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-10-20T09:48:53.669+1100 [DEBUG] will search for provider plugins in /Users/roberto/.terraform.d/plugins
+2023-10-20T09:48:53.669+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/template v2.2.0 for darwin_arm64 at /Users/roberto/.terraform.d/plugins/registry.terraform.io/hashicorp/template/2.2.0/darwin_arm64
+2023-10-20T09:48:53.669+1100 [DEBUG] ignoring non-existing provider search directory /Users/roberto/Library/Application Support/io.terraform/plugins
+2023-10-20T09:48:53.670+1100 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-10-20T09:48:53.671+1100 [INFO]  CLI command args: []string{"state"}
+2023-10-20T09:48:56.372+1100 [INFO]  Terraform version: 1.5.7
+2023-10-20T09:48:56.372+1100 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2023-10-20T09:48:56.372+1100 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2023-10-20T09:48:56.372+1100 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2023-10-20T09:48:56.372+1100 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2023-10-20T09:48:56.372+1100 [INFO]  Go runtime version: go1.20.7
+2023-10-20T09:48:56.372+1100 [INFO]  CLI args: []string{"/opt/homebrew/bin/terraform", "state", "list"}
+2023-10-20T09:48:56.372+1100 [TRACE] Stdout is a terminal of width 166
+2023-10-20T09:48:56.372+1100 [TRACE] Stderr is a terminal of width 166
+2023-10-20T09:48:56.372+1100 [TRACE] Stdin is a terminal
+2023-10-20T09:48:56.372+1100 [DEBUG] Attempting to open CLI config file: /Users/roberto/.terraformrc
+2023-10-20T09:48:56.372+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraformrc
+2023-10-20T09:48:56.372+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraform.d/credentials.tfrc.json
+2023-10-20T09:48:56.372+1100 [DEBUG] checking for credentials in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T09:48:56.373+1100 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-10-20T09:48:56.373+1100 [DEBUG] will search for provider plugins in /Users/roberto/.terraform.d/plugins
+2023-10-20T09:48:56.373+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/template v2.2.0 for darwin_arm64 at /Users/roberto/.terraform.d/plugins/registry.terraform.io/hashicorp/template/2.2.0/darwin_arm64
+2023-10-20T09:48:56.373+1100 [DEBUG] ignoring non-existing provider search directory /Users/roberto/Library/Application Support/io.terraform/plugins
+2023-10-20T09:48:56.373+1100 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-10-20T09:48:56.373+1100 [INFO]  CLI command args: []string{"state", "list"}
+2023-10-20T09:48:56.386+1100 [TRACE] Meta.Backend: BackendOpts.Config not set, so using settings loaded from :0,0-0
+2023-10-20T09:48:56.386+1100 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2242617002
+2023-10-20T09:48:56.387+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T09:48:56.387+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T09:48:56.387+1100 [TRACE] Meta.Backend: working directory was previously initialized for "cloud" backend
+2023-10-20T09:48:56.387+1100 [TRACE] Meta.Backend: using already-initialized, unchanged "cloud" backend configuration
+2023-10-20T09:48:56.389+1100 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2023-10-20T09:48:56.390+1100 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2023-10-20T09:48:58.407+1100 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2023-10-20T09:48:58.407+1100 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2023-10-20T09:48:58.407+1100 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2023-10-20T09:48:58.410+1100 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2023-10-20T09:48:58.412+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.0.1 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64
+2023-10-20T09:48:58.415+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/random v3.3.2 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64
+2023-10-20T09:48:58.415+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.0.1
+2023-10-20T09:48:58.415+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/random 3.3.2
+2023-10-20T09:48:58.616+1100 [TRACE] providercache.fillMetaCache: using cached result from previous scan of .terraform/providers
+2023-10-20T09:48:58.627+1100 [DEBUG] checking for provisioner in "."
+2023-10-20T09:48:58.629+1100 [DEBUG] checking for provisioner in "/opt/homebrew/bin"
+2023-10-20T09:48:58.630+1100 [DEBUG] checking for provisioner in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T09:48:58.630+1100 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2023-10-20T09:52:40.822+1100 [INFO]  Terraform version: 1.5.7
+2023-10-20T09:52:40.822+1100 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2023-10-20T09:52:40.822+1100 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2023-10-20T09:52:40.822+1100 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2023-10-20T09:52:40.822+1100 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2023-10-20T09:52:40.822+1100 [INFO]  Go runtime version: go1.20.7
+2023-10-20T09:52:40.822+1100 [INFO]  CLI args: []string{"/opt/homebrew/bin/terraform", "validate"}
+2023-10-20T09:52:40.822+1100 [TRACE] Stdout is a terminal of width 166
+2023-10-20T09:52:40.822+1100 [TRACE] Stderr is a terminal of width 166
+2023-10-20T09:52:40.822+1100 [TRACE] Stdin is a terminal
+2023-10-20T09:52:40.822+1100 [DEBUG] Attempting to open CLI config file: /Users/roberto/.terraformrc
+2023-10-20T09:52:40.822+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraformrc
+2023-10-20T09:52:40.823+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraform.d/credentials.tfrc.json
+2023-10-20T09:52:40.824+1100 [DEBUG] checking for credentials in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T09:52:40.824+1100 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-10-20T09:52:40.824+1100 [DEBUG] will search for provider plugins in /Users/roberto/.terraform.d/plugins
+2023-10-20T09:52:40.828+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/template v2.2.0 for darwin_arm64 at /Users/roberto/.terraform.d/plugins/registry.terraform.io/hashicorp/template/2.2.0/darwin_arm64
+2023-10-20T09:52:40.828+1100 [DEBUG] ignoring non-existing provider search directory /Users/roberto/Library/Application Support/io.terraform/plugins
+2023-10-20T09:52:40.828+1100 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-10-20T09:52:40.829+1100 [INFO]  CLI command args: []string{"validate"}
+2023-10-20T09:52:40.837+1100 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2023-10-20T09:52:40.837+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.0.1 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64
+2023-10-20T09:52:40.838+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/random v3.3.2 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64
+2023-10-20T09:52:40.838+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.0.1
+2023-10-20T09:52:40.838+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/random 3.3.2
+2023-10-20T09:52:41.051+1100 [TRACE] providercache.fillMetaCache: using cached result from previous scan of .terraform/providers
+2023-10-20T09:52:41.068+1100 [DEBUG] checking for provisioner in "."
+2023-10-20T09:52:41.071+1100 [DEBUG] checking for provisioner in "/opt/homebrew/bin"
+2023-10-20T09:52:41.072+1100 [DEBUG] checking for provisioner in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T09:52:41.072+1100 [TRACE] terraform.NewContext: starting
+2023-10-20T09:52:41.072+1100 [TRACE] terraform.NewContext: complete
+2023-10-20T09:52:41.072+1100 [DEBUG] Building and walking validate graph
+2023-10-20T09:52:41.073+1100 [TRACE] building graph for walkValidate
+2023-10-20T09:52:41.073+1100 [TRACE] Executing graph transform *terraform.ConfigTransformer
+2023-10-20T09:52:41.074+1100 [TRACE] ConfigTransformer: Starting for path:
+2023-10-20T09:52:41.075+1100 [TRACE] Completed graph transform *terraform.ConfigTransformer with new graph:
+  random_pet.pet_name - *terraform.NodeValidatableResource
+  random_pet.server - *terraform.NodeValidatableResource
+  random_string.random - *terraform.NodeValidatableResource
+  random_uuid.uux - *terraform.NodeValidatableResource
+  ------
+2023-10-20T09:52:41.075+1100 [TRACE] Executing graph transform *terraform.RootVariableTransformer
+2023-10-20T09:52:41.075+1100 [TRACE] Completed graph transform *terraform.RootVariableTransformer with new graph:
+  random_pet.pet_name - *terraform.NodeValidatableResource
+  random_pet.server - *terraform.NodeValidatableResource
+  random_string.random - *terraform.NodeValidatableResource
+  random_uuid.uux - *terraform.NodeValidatableResource
+  var.name_length - *terraform.NodeRootVariable
+  ------
+2023-10-20T09:52:41.075+1100 [TRACE] Executing graph transform *terraform.ModuleVariableTransformer
+2023-10-20T09:52:41.075+1100 [TRACE] Completed graph transform *terraform.ModuleVariableTransformer (no changes)
+2023-10-20T09:52:41.075+1100 [TRACE] Executing graph transform *terraform.LocalTransformer
+2023-10-20T09:52:41.075+1100 [TRACE] Completed graph transform *terraform.LocalTransformer (no changes)
+2023-10-20T09:52:41.075+1100 [TRACE] Executing graph transform *terraform.OutputTransformer
+2023-10-20T09:52:41.075+1100 [TRACE] OutputTransformer: adding rs as *terraform.nodeExpandOutput
+2023-10-20T09:52:41.075+1100 [TRACE] OutputTransformer: adding pet_name as *terraform.nodeExpandOutput
+2023-10-20T09:52:41.075+1100 [TRACE] OutputTransformer: adding gatito_name as *terraform.nodeExpandOutput
+2023-10-20T09:52:41.075+1100 [TRACE] OutputTransformer: adding quesito_name as *terraform.nodeExpandOutput
+2023-10-20T09:52:41.075+1100 [TRACE] OutputTransformer: adding gatito_2 as *terraform.nodeExpandOutput
+2023-10-20T09:52:41.075+1100 [TRACE] OutputTransformer: adding t_uux as *terraform.nodeExpandOutput
+2023-10-20T09:52:41.076+1100 [TRACE] Completed graph transform *terraform.OutputTransformer with new graph:
+  output.gatito_2 (expand) - *terraform.nodeExpandOutput
+  output.gatito_name (expand) - *terraform.nodeExpandOutput
+  output.pet_name (expand) - *terraform.nodeExpandOutput
+  output.quesito_name (expand) - *terraform.nodeExpandOutput
+  output.rs (expand) - *terraform.nodeExpandOutput
+  output.t_uux (expand) - *terraform.nodeExpandOutput
+  random_pet.pet_name - *terraform.NodeValidatableResource
+  random_pet.server - *terraform.NodeValidatableResource
+  random_string.random - *terraform.NodeValidatableResource
+  random_uuid.uux - *terraform.NodeValidatableResource
+  var.name_length - *terraform.NodeRootVariable
+  ------
+2023-10-20T09:52:41.076+1100 [TRACE] Executing graph transform *terraform.checkTransformer
+2023-10-20T09:52:41.076+1100 [TRACE] Completed graph transform *terraform.checkTransformer (no changes)
+2023-10-20T09:52:41.076+1100 [TRACE] Executing graph transform *terraform.OrphanResourceInstanceTransformer
+2023-10-20T09:52:41.076+1100 [TRACE] Completed graph transform *terraform.OrphanResourceInstanceTransformer (no changes)
+2023-10-20T09:52:41.076+1100 [TRACE] Executing graph transform *terraform.StateTransformer
+2023-10-20T09:52:41.076+1100 [TRACE] StateTransformer: pointless no-op call, creating no nodes at all
+2023-10-20T09:52:41.076+1100 [TRACE] Completed graph transform *terraform.StateTransformer (no changes)
+2023-10-20T09:52:41.076+1100 [TRACE] Executing graph transform *terraform.AttachStateTransformer
+2023-10-20T09:52:41.076+1100 [TRACE] Completed graph transform *terraform.AttachStateTransformer (no changes)
+2023-10-20T09:52:41.076+1100 [TRACE] Executing graph transform *terraform.OrphanOutputTransformer
+2023-10-20T09:52:41.076+1100 [TRACE] Completed graph transform *terraform.OrphanOutputTransformer (no changes)
+2023-10-20T09:52:41.076+1100 [TRACE] Executing graph transform *terraform.AttachResourceConfigTransformer
+2023-10-20T09:52:41.076+1100 [TRACE] AttachResourceConfigTransformer: attaching to "random_pet.pet_name" (*terraform.NodeValidatableResource) config from main.tf:34,1-33
+2023-10-20T09:52:41.076+1100 [TRACE] AttachResourceConfigTransformer: attaching provider meta configs to random_pet.pet_name
+2023-10-20T09:52:41.076+1100 [TRACE] AttachResourceConfigTransformer: attaching to "random_pet.server" (*terraform.NodeValidatableResource) config from main.tf:39,1-31
+2023-10-20T09:52:41.076+1100 [TRACE] AttachResourceConfigTransformer: attaching provider meta configs to random_pet.server
+2023-10-20T09:52:41.076+1100 [TRACE] AttachResourceConfigTransformer: attaching to "random_uuid.uux" (*terraform.NodeValidatableResource) config from main.tf:50,1-29
+2023-10-20T09:52:41.076+1100 [TRACE] AttachResourceConfigTransformer: attaching provider meta configs to random_uuid.uux
+2023-10-20T09:52:41.076+1100 [TRACE] AttachResourceConfigTransformer: attaching to "random_string.random" (*terraform.NodeValidatableResource) config from main.tf:44,1-34
+2023-10-20T09:52:41.076+1100 [TRACE] AttachResourceConfigTransformer: attaching provider meta configs to random_string.random
+2023-10-20T09:52:41.076+1100 [TRACE] Completed graph transform *terraform.AttachResourceConfigTransformer (no changes)
+2023-10-20T09:52:41.076+1100 [TRACE] Executing graph transform *terraform.graphTransformerMulti
+2023-10-20T09:52:41.076+1100 [TRACE] (graphTransformerMulti) Executing graph transform *terraform.ProviderConfigTransformer
+2023-10-20T09:52:41.076+1100 [TRACE] (graphTransformerMulti) Completed graph transform *terraform.ProviderConfigTransformer with new graph:
+  output.gatito_2 (expand) - *terraform.nodeExpandOutput
+  output.gatito_name (expand) - *terraform.nodeExpandOutput
+  output.pet_name (expand) - *terraform.nodeExpandOutput
+  output.quesito_name (expand) - *terraform.nodeExpandOutput
+  output.rs (expand) - *terraform.nodeExpandOutput
+  output.t_uux (expand) - *terraform.nodeExpandOutput
+  provider["registry.terraform.io/hashicorp/azurerm"] - *terraform.NodeApplyableProvider
+  provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_pet.pet_name - *terraform.NodeValidatableResource
+  random_pet.server - *terraform.NodeValidatableResource
+  random_string.random - *terraform.NodeValidatableResource
+  random_uuid.uux - *terraform.NodeValidatableResource
+  var.name_length - *terraform.NodeRootVariable
+  ------
+2023-10-20T09:52:41.076+1100 [TRACE] (graphTransformerMulti) Executing graph transform *terraform.MissingProviderTransformer
+2023-10-20T09:52:41.076+1100 [TRACE] (graphTransformerMulti) Completed graph transform *terraform.MissingProviderTransformer (no changes)
+2023-10-20T09:52:41.076+1100 [TRACE] (graphTransformerMulti) Executing graph transform *terraform.ProviderTransformer
+2023-10-20T09:52:41.076+1100 [TRACE] ProviderTransformer: exact match for provider["registry.terraform.io/hashicorp/random"] serving random_string.random
+2023-10-20T09:52:41.076+1100 [DEBUG] ProviderTransformer: "random_string.random" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/random"]
+2023-10-20T09:52:41.076+1100 [TRACE] ProviderTransformer: exact match for provider["registry.terraform.io/hashicorp/random"] serving random_pet.pet_name
+2023-10-20T09:52:41.076+1100 [DEBUG] ProviderTransformer: "random_pet.pet_name" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/random"]
+2023-10-20T09:52:41.076+1100 [TRACE] ProviderTransformer: exact match for provider["registry.terraform.io/hashicorp/random"] serving random_pet.server
+2023-10-20T09:52:41.076+1100 [DEBUG] ProviderTransformer: "random_pet.server" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/random"]
+2023-10-20T09:52:41.076+1100 [TRACE] ProviderTransformer: exact match for provider["registry.terraform.io/hashicorp/random"] serving random_uuid.uux
+2023-10-20T09:52:41.076+1100 [DEBUG] ProviderTransformer: "random_uuid.uux" (*terraform.NodeValidatableResource) needs provider["registry.terraform.io/hashicorp/random"]
+2023-10-20T09:52:41.076+1100 [TRACE] (graphTransformerMulti) Completed graph transform *terraform.ProviderTransformer with new graph:
+  output.gatito_2 (expand) - *terraform.nodeExpandOutput
+  output.gatito_name (expand) - *terraform.nodeExpandOutput
+  output.pet_name (expand) - *terraform.nodeExpandOutput
+  output.quesito_name (expand) - *terraform.nodeExpandOutput
+  output.rs (expand) - *terraform.nodeExpandOutput
+  output.t_uux (expand) - *terraform.nodeExpandOutput
+  provider["registry.terraform.io/hashicorp/azurerm"] - *terraform.NodeApplyableProvider
+  provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_pet.pet_name - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_pet.server - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_string.random - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_uuid.uux - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  var.name_length - *terraform.NodeRootVariable
+  ------
+2023-10-20T09:52:41.076+1100 [TRACE] (graphTransformerMulti) Executing graph transform *terraform.PruneProviderTransformer
+2023-10-20T09:52:41.076+1100 [DEBUG] pruning unused provider["registry.terraform.io/hashicorp/azurerm"]
+2023-10-20T09:52:41.076+1100 [TRACE] (graphTransformerMulti) Completed graph transform *terraform.PruneProviderTransformer with new graph:
+  output.gatito_2 (expand) - *terraform.nodeExpandOutput
+  output.gatito_name (expand) - *terraform.nodeExpandOutput
+  output.pet_name (expand) - *terraform.nodeExpandOutput
+  output.quesito_name (expand) - *terraform.nodeExpandOutput
+  output.rs (expand) - *terraform.nodeExpandOutput
+  output.t_uux (expand) - *terraform.nodeExpandOutput
+  provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_pet.pet_name - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_pet.server - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_string.random - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_uuid.uux - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  var.name_length - *terraform.NodeRootVariable
+  ------
+2023-10-20T09:52:41.076+1100 [TRACE] Completed graph transform *terraform.graphTransformerMulti with new graph:
+  output.gatito_2 (expand) - *terraform.nodeExpandOutput
+  output.gatito_name (expand) - *terraform.nodeExpandOutput
+  output.pet_name (expand) - *terraform.nodeExpandOutput
+  output.quesito_name (expand) - *terraform.nodeExpandOutput
+  output.rs (expand) - *terraform.nodeExpandOutput
+  output.t_uux (expand) - *terraform.nodeExpandOutput
+  provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_pet.pet_name - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_pet.server - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_string.random - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_uuid.uux - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  var.name_length - *terraform.NodeRootVariable
+  ------
+2023-10-20T09:52:41.076+1100 [TRACE] Executing graph transform *terraform.RemovedModuleTransformer
+2023-10-20T09:52:41.076+1100 [TRACE] Completed graph transform *terraform.RemovedModuleTransformer (no changes)
+2023-10-20T09:52:41.076+1100 [TRACE] Executing graph transform *terraform.AttachSchemaTransformer
+2023-10-20T09:52:41.077+1100 [TRACE] terraform.contextPlugins: Initializing provider "registry.terraform.io/hashicorp/random" to read its schema
+2023-10-20T09:52:41.077+1100 [DEBUG] created provider logger: level=trace
+2023-10-20T09:52:41.077+1100 [INFO]  provider: configuring client automatic mTLS
+2023-10-20T09:52:41.083+1100 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64/terraform-provider-random_v3.3.2_x5 args=[.terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64/terraform-provider-random_v3.3.2_x5]
+2023-10-20T09:52:41.087+1100 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64/terraform-provider-random_v3.3.2_x5 pid=28656
+2023-10-20T09:52:41.087+1100 [DEBUG] provider: waiting for RPC address: path=.terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64/terraform-provider-random_v3.3.2_x5
+2023-10-20T09:52:41.125+1100 [INFO]  provider.terraform-provider-random_v3.3.2_x5: configuring server automatic mTLS: timestamp=2023-10-20T09:52:41.125+1100
+2023-10-20T09:52:41.132+1100 [DEBUG] provider: using plugin: version=5
+2023-10-20T09:52:41.132+1100 [DEBUG] provider.terraform-provider-random_v3.3.2_x5: plugin address: address=/var/folders/3t/yc9s9vvj4kqg7x46byrk81bm0000gn/T/plugin3857853205 network=unix timestamp=2023-10-20T09:52:41.132+1100
+2023-10-20T09:52:41.146+1100 [TRACE] GRPCProvider: GetProviderSchema
+2023-10-20T09:52:41.146+1100 [TRACE] provider.stdio: waiting for stdio data
+2023-10-20T09:52:41.147+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Received request: tf_proto_version=5.2 tf_provider_addr=provider @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:490 @module=sdk.proto tf_req_id=0a4e564b-d2d4-ff61-b031-9d87a32d7212 tf_rpc=GetProviderSchema timestamp=2023-10-20T09:52:41.147+1100
+2023-10-20T09:52:41.147+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Calling downstream: tf_provider_addr=provider tf_req_id=0a4e564b-d2d4-ff61-b031-9d87a32d7212 tf_rpc=GetProviderSchema @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:497 @module=sdk.proto tf_proto_version=5.2 timestamp=2023-10-20T09:52:41.147+1100
+2023-10-20T09:52:41.147+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Getting provider schema: tf_rpc=GetProviderSchema @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:70 @module=sdk.helper_schema tf_provider_addr=provider tf_req_id=0a4e564b-d2d4-ff61-b031-9d87a32d7212 timestamp=2023-10-20T09:52:41.147+1100
+2023-10-20T09:52:41.147+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Found resource type: tf_provider_addr=provider tf_req_id=0a4e564b-d2d4-ff61-b031-9d87a32d7212 tf_resource_type=random_pet tf_rpc=GetProviderSchema @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:86 @module=sdk.helper_schema timestamp=2023-10-20T09:52:41.147+1100
+2023-10-20T09:52:41.147+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Found resource type: tf_rpc=GetProviderSchema @module=sdk.helper_schema tf_provider_addr=provider tf_req_id=0a4e564b-d2d4-ff61-b031-9d87a32d7212 tf_resource_type=random_string @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:86 timestamp=2023-10-20T09:52:41.147+1100
+2023-10-20T09:52:41.147+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Found resource type: tf_provider_addr=provider @module=sdk.helper_schema tf_req_id=0a4e564b-d2d4-ff61-b031-9d87a32d7212 tf_resource_type=random_password tf_rpc=GetProviderSchema @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:86 timestamp=2023-10-20T09:52:41.147+1100
+2023-10-20T09:52:41.147+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Found resource type: tf_req_id=0a4e564b-d2d4-ff61-b031-9d87a32d7212 tf_resource_type=random_integer tf_rpc=GetProviderSchema @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:86 @module=sdk.helper_schema tf_provider_addr=provider timestamp=2023-10-20T09:52:41.147+1100
+2023-10-20T09:52:41.147+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Found resource type: @module=sdk.helper_schema tf_req_id=0a4e564b-d2d4-ff61-b031-9d87a32d7212 @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:86 tf_provider_addr=provider tf_resource_type=random_uuid tf_rpc=GetProviderSchema timestamp=2023-10-20T09:52:41.147+1100
+2023-10-20T09:52:41.147+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Found resource type: tf_resource_type=random_id tf_rpc=GetProviderSchema @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:86 tf_provider_addr=provider tf_req_id=0a4e564b-d2d4-ff61-b031-9d87a32d7212 @module=sdk.helper_schema timestamp=2023-10-20T09:52:41.147+1100
+2023-10-20T09:52:41.147+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Found resource type: tf_req_id=0a4e564b-d2d4-ff61-b031-9d87a32d7212 tf_resource_type=random_shuffle tf_rpc=GetProviderSchema @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:86 @module=sdk.helper_schema tf_provider_addr=provider timestamp=2023-10-20T09:52:41.147+1100
+2023-10-20T09:52:41.147+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Called downstream: tf_proto_version=5.2 tf_req_id=0a4e564b-d2d4-ff61-b031-9d87a32d7212 tf_rpc=GetProviderSchema @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:503 tf_provider_addr=provider @module=sdk.proto timestamp=2023-10-20T09:52:41.147+1100
+2023-10-20T09:52:41.147+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Served request: tf_proto_version=5.2 @module=sdk.proto tf_provider_addr=provider tf_req_id=0a4e564b-d2d4-ff61-b031-9d87a32d7212 tf_rpc=GetProviderSchema @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:509 timestamp=2023-10-20T09:52:41.147+1100
+2023-10-20T09:52:41.150+1100 [TRACE] GRPCProvider: Close
+2023-10-20T09:52:41.150+1100 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2023-10-20T09:52:41.151+1100 [DEBUG] provider: plugin process exited: path=.terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64/terraform-provider-random_v3.3.2_x5 pid=28656
+2023-10-20T09:52:41.151+1100 [DEBUG] provider: plugin exited
+2023-10-20T09:52:41.151+1100 [TRACE] AttachSchemaTransformer: attaching resource schema to random_uuid.uux
+2023-10-20T09:52:41.151+1100 [TRACE] AttachSchemaTransformer: attaching resource schema to random_pet.pet_name
+2023-10-20T09:52:41.151+1100 [TRACE] AttachSchemaTransformer: attaching resource schema to random_pet.server
+2023-10-20T09:52:41.151+1100 [TRACE] AttachSchemaTransformer: attaching provider config schema to provider["registry.terraform.io/hashicorp/random"]
+2023-10-20T09:52:41.151+1100 [TRACE] AttachSchemaTransformer: attaching resource schema to random_string.random
+2023-10-20T09:52:41.151+1100 [TRACE] Completed graph transform *terraform.AttachSchemaTransformer (no changes)
+2023-10-20T09:52:41.151+1100 [TRACE] Executing graph transform *terraform.ModuleExpansionTransformer
+2023-10-20T09:52:41.151+1100 [TRACE] Completed graph transform *terraform.ModuleExpansionTransformer (no changes)
+2023-10-20T09:52:41.151+1100 [TRACE] Executing graph transform *terraform.ReferenceTransformer
+2023-10-20T09:52:41.151+1100 [DEBUG] ReferenceTransformer: "random_string.random" references: []
+2023-10-20T09:52:41.151+1100 [DEBUG] ReferenceTransformer: "var.name_length" references: []
+2023-10-20T09:52:41.152+1100 [DEBUG] ReferenceTransformer: "output.rs (expand)" references: [random_string.random]
+2023-10-20T09:52:41.152+1100 [DEBUG] ReferenceTransformer: "output.gatito_name (expand)" references: [random_pet.pet_name]
+2023-10-20T09:52:41.152+1100 [DEBUG] ReferenceTransformer: "output.quesito_name (expand)" references: [random_pet.pet_name]
+2023-10-20T09:52:41.152+1100 [DEBUG] ReferenceTransformer: "output.gatito_2 (expand)" references: [random_pet.server]
+2023-10-20T09:52:41.152+1100 [DEBUG] ReferenceTransformer: "random_uuid.uux" references: []
+2023-10-20T09:52:41.152+1100 [DEBUG] ReferenceTransformer: "random_pet.pet_name" references: [var.name_length]
+2023-10-20T09:52:41.152+1100 [DEBUG] ReferenceTransformer: "random_pet.server" references: [var.name_length]
+2023-10-20T09:52:41.152+1100 [DEBUG] ReferenceTransformer: "output.pet_name (expand)" references: [random_pet.pet_name]
+2023-10-20T09:52:41.152+1100 [DEBUG] ReferenceTransformer: "output.t_uux (expand)" references: [random_uuid.uux]
+2023-10-20T09:52:41.152+1100 [DEBUG] ReferenceTransformer: "provider[\"registry.terraform.io/hashicorp/random\"]" references: []
+2023-10-20T09:52:41.152+1100 [TRACE] Completed graph transform *terraform.ReferenceTransformer with new graph:
+  output.gatito_2 (expand) - *terraform.nodeExpandOutput
+    random_pet.server - *terraform.NodeValidatableResource
+  output.gatito_name (expand) - *terraform.nodeExpandOutput
+    random_pet.pet_name - *terraform.NodeValidatableResource
+  output.pet_name (expand) - *terraform.nodeExpandOutput
+    random_pet.pet_name - *terraform.NodeValidatableResource
+  output.quesito_name (expand) - *terraform.nodeExpandOutput
+    random_pet.pet_name - *terraform.NodeValidatableResource
+  output.rs (expand) - *terraform.nodeExpandOutput
+    random_string.random - *terraform.NodeValidatableResource
+  output.t_uux (expand) - *terraform.nodeExpandOutput
+    random_uuid.uux - *terraform.NodeValidatableResource
+  provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_pet.pet_name - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+    var.name_length - *terraform.NodeRootVariable
+  random_pet.server - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+    var.name_length - *terraform.NodeRootVariable
+  random_string.random - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_uuid.uux - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  var.name_length - *terraform.NodeRootVariable
+  ------
+2023-10-20T09:52:41.152+1100 [TRACE] Executing graph transform *terraform.AttachDependenciesTransformer
+2023-10-20T09:52:41.152+1100 [TRACE] Completed graph transform *terraform.AttachDependenciesTransformer (no changes)
+2023-10-20T09:52:41.152+1100 [TRACE] Executing graph transform *terraform.attachDataResourceDependsOnTransformer
+2023-10-20T09:52:41.152+1100 [TRACE] Completed graph transform *terraform.attachDataResourceDependsOnTransformer (no changes)
+2023-10-20T09:52:41.152+1100 [TRACE] Executing graph transform *terraform.DestroyEdgeTransformer
+2023-10-20T09:52:41.152+1100 [TRACE] Completed graph transform *terraform.DestroyEdgeTransformer (no changes)
+2023-10-20T09:52:41.152+1100 [TRACE] Executing graph transform *terraform.pruneUnusedNodesTransformer
+2023-10-20T09:52:41.152+1100 [TRACE] Completed graph transform *terraform.pruneUnusedNodesTransformer (no changes)
+2023-10-20T09:52:41.152+1100 [TRACE] Executing graph transform *terraform.TargetsTransformer
+2023-10-20T09:52:41.152+1100 [TRACE] Completed graph transform *terraform.TargetsTransformer (no changes)
+2023-10-20T09:52:41.152+1100 [TRACE] Executing graph transform *terraform.ForcedCBDTransformer
+2023-10-20T09:52:41.152+1100 [TRACE] Completed graph transform *terraform.ForcedCBDTransformer (no changes)
+2023-10-20T09:52:41.152+1100 [TRACE] Executing graph transform *terraform.CloseProviderTransformer
+2023-10-20T09:52:41.152+1100 [TRACE] Completed graph transform *terraform.CloseProviderTransformer with new graph:
+  output.gatito_2 (expand) - *terraform.nodeExpandOutput
+    random_pet.server - *terraform.NodeValidatableResource
+  output.gatito_name (expand) - *terraform.nodeExpandOutput
+    random_pet.pet_name - *terraform.NodeValidatableResource
+  output.pet_name (expand) - *terraform.nodeExpandOutput
+    random_pet.pet_name - *terraform.NodeValidatableResource
+  output.quesito_name (expand) - *terraform.nodeExpandOutput
+    random_pet.pet_name - *terraform.NodeValidatableResource
+  output.rs (expand) - *terraform.nodeExpandOutput
+    random_string.random - *terraform.NodeValidatableResource
+  output.t_uux (expand) - *terraform.nodeExpandOutput
+    random_uuid.uux - *terraform.NodeValidatableResource
+  provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  provider["registry.terraform.io/hashicorp/random"] (close) - *terraform.graphNodeCloseProvider
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+    random_pet.pet_name - *terraform.NodeValidatableResource
+    random_pet.server - *terraform.NodeValidatableResource
+    random_string.random - *terraform.NodeValidatableResource
+    random_uuid.uux - *terraform.NodeValidatableResource
+  random_pet.pet_name - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+    var.name_length - *terraform.NodeRootVariable
+  random_pet.server - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+    var.name_length - *terraform.NodeRootVariable
+  random_string.random - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_uuid.uux - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  var.name_length - *terraform.NodeRootVariable
+  ------
+2023-10-20T09:52:41.152+1100 [TRACE] Executing graph transform *terraform.CloseRootModuleTransformer
+2023-10-20T09:52:41.152+1100 [TRACE] Completed graph transform *terraform.CloseRootModuleTransformer with new graph:
+  output.gatito_2 (expand) - *terraform.nodeExpandOutput
+    random_pet.server - *terraform.NodeValidatableResource
+  output.gatito_name (expand) - *terraform.nodeExpandOutput
+    random_pet.pet_name - *terraform.NodeValidatableResource
+  output.pet_name (expand) - *terraform.nodeExpandOutput
+    random_pet.pet_name - *terraform.NodeValidatableResource
+  output.quesito_name (expand) - *terraform.nodeExpandOutput
+    random_pet.pet_name - *terraform.NodeValidatableResource
+  output.rs (expand) - *terraform.nodeExpandOutput
+    random_string.random - *terraform.NodeValidatableResource
+  output.t_uux (expand) - *terraform.nodeExpandOutput
+    random_uuid.uux - *terraform.NodeValidatableResource
+  provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  provider["registry.terraform.io/hashicorp/random"] (close) - *terraform.graphNodeCloseProvider
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+    random_pet.pet_name - *terraform.NodeValidatableResource
+    random_pet.server - *terraform.NodeValidatableResource
+    random_string.random - *terraform.NodeValidatableResource
+    random_uuid.uux - *terraform.NodeValidatableResource
+  random_pet.pet_name - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+    var.name_length - *terraform.NodeRootVariable
+  random_pet.server - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+    var.name_length - *terraform.NodeRootVariable
+  random_string.random - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_uuid.uux - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  root - *terraform.nodeCloseModule
+    output.gatito_2 (expand) - *terraform.nodeExpandOutput
+    output.gatito_name (expand) - *terraform.nodeExpandOutput
+    output.pet_name (expand) - *terraform.nodeExpandOutput
+    output.quesito_name (expand) - *terraform.nodeExpandOutput
+    output.rs (expand) - *terraform.nodeExpandOutput
+    output.t_uux (expand) - *terraform.nodeExpandOutput
+    provider["registry.terraform.io/hashicorp/random"] (close) - *terraform.graphNodeCloseProvider
+  var.name_length - *terraform.NodeRootVariable
+  ------
+2023-10-20T09:52:41.152+1100 [TRACE] Executing graph transform *terraform.TransitiveReductionTransformer
+2023-10-20T09:52:41.152+1100 [TRACE] Completed graph transform *terraform.TransitiveReductionTransformer with new graph:
+  output.gatito_2 (expand) - *terraform.nodeExpandOutput
+    random_pet.server - *terraform.NodeValidatableResource
+  output.gatito_name (expand) - *terraform.nodeExpandOutput
+    random_pet.pet_name - *terraform.NodeValidatableResource
+  output.pet_name (expand) - *terraform.nodeExpandOutput
+    random_pet.pet_name - *terraform.NodeValidatableResource
+  output.quesito_name (expand) - *terraform.nodeExpandOutput
+    random_pet.pet_name - *terraform.NodeValidatableResource
+  output.rs (expand) - *terraform.nodeExpandOutput
+    random_string.random - *terraform.NodeValidatableResource
+  output.t_uux (expand) - *terraform.nodeExpandOutput
+    random_uuid.uux - *terraform.NodeValidatableResource
+  provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  provider["registry.terraform.io/hashicorp/random"] (close) - *terraform.graphNodeCloseProvider
+    random_pet.pet_name - *terraform.NodeValidatableResource
+    random_pet.server - *terraform.NodeValidatableResource
+    random_string.random - *terraform.NodeValidatableResource
+    random_uuid.uux - *terraform.NodeValidatableResource
+  random_pet.pet_name - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+    var.name_length - *terraform.NodeRootVariable
+  random_pet.server - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+    var.name_length - *terraform.NodeRootVariable
+  random_string.random - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  random_uuid.uux - *terraform.NodeValidatableResource
+    provider["registry.terraform.io/hashicorp/random"] - *terraform.NodeApplyableProvider
+  root - *terraform.nodeCloseModule
+    output.gatito_2 (expand) - *terraform.nodeExpandOutput
+    output.gatito_name (expand) - *terraform.nodeExpandOutput
+    output.pet_name (expand) - *terraform.nodeExpandOutput
+    output.quesito_name (expand) - *terraform.nodeExpandOutput
+    output.rs (expand) - *terraform.nodeExpandOutput
+    output.t_uux (expand) - *terraform.nodeExpandOutput
+    provider["registry.terraform.io/hashicorp/random"] (close) - *terraform.graphNodeCloseProvider
+  var.name_length - *terraform.NodeRootVariable
+  ------
+2023-10-20T09:52:41.152+1100 [DEBUG] Starting graph walk: walkValidate
+2023-10-20T09:52:41.153+1100 [TRACE] vertex "var.name_length": starting visit (*terraform.NodeRootVariable)
+2023-10-20T09:52:41.153+1100 [TRACE] NodeRootVariable: evaluating var.name_length
+2023-10-20T09:52:41.153+1100 [TRACE] prepareFinalInputVariableValue: preparing var.name_length
+2023-10-20T09:52:41.153+1100 [TRACE] prepareFinalInputVariableValue: var.name_length has a default value
+2023-10-20T09:52:41.154+1100 [TRACE] BuiltinEvalContext: Storing final value for variable var.name_length
+2023-10-20T09:52:41.154+1100 [TRACE] evalVariableValidations: no validation rules declared for var.name_length, so skipping
+2023-10-20T09:52:41.154+1100 [TRACE] vertex "var.name_length": visit complete
+2023-10-20T09:52:41.154+1100 [TRACE] vertex "provider[\"registry.terraform.io/hashicorp/random\"]": starting visit (*terraform.NodeApplyableProvider)
+2023-10-20T09:52:41.154+1100 [DEBUG] created provider logger: level=trace
+2023-10-20T09:52:41.154+1100 [INFO]  provider: configuring client automatic mTLS
+2023-10-20T09:52:41.157+1100 [DEBUG] provider: starting plugin: path=.terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64/terraform-provider-random_v3.3.2_x5 args=[.terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64/terraform-provider-random_v3.3.2_x5]
+2023-10-20T09:52:41.159+1100 [DEBUG] provider: plugin started: path=.terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64/terraform-provider-random_v3.3.2_x5 pid=28657
+2023-10-20T09:52:41.159+1100 [DEBUG] provider: waiting for RPC address: path=.terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64/terraform-provider-random_v3.3.2_x5
+2023-10-20T09:52:41.171+1100 [INFO]  provider.terraform-provider-random_v3.3.2_x5: configuring server automatic mTLS: timestamp=2023-10-20T09:52:41.170+1100
+2023-10-20T09:52:41.178+1100 [DEBUG] provider: using plugin: version=5
+2023-10-20T09:52:41.178+1100 [DEBUG] provider.terraform-provider-random_v3.3.2_x5: plugin address: address=/var/folders/3t/yc9s9vvj4kqg7x46byrk81bm0000gn/T/plugin2399303618 network=unix timestamp=2023-10-20T09:52:41.178+1100
+2023-10-20T09:52:41.187+1100 [TRACE] BuiltinEvalContext: Initialized "provider[\"registry.terraform.io/hashicorp/random\"]" provider for provider["registry.terraform.io/hashicorp/random"]
+2023-10-20T09:52:41.187+1100 [TRACE] NodeApplyableProvider: validating configuration for provider["registry.terraform.io/hashicorp/random"]
+2023-10-20T09:52:41.187+1100 [TRACE] buildProviderConfig for provider["registry.terraform.io/hashicorp/random"]: no configuration at all
+2023-10-20T09:52:41.187+1100 [TRACE] vertex "provider[\"registry.terraform.io/hashicorp/random\"]": visit complete
+2023-10-20T09:52:41.187+1100 [TRACE] vertex "random_uuid.uux": starting visit (*terraform.NodeValidatableResource)
+2023-10-20T09:52:41.187+1100 [TRACE] vertex "random_string.random": starting visit (*terraform.NodeValidatableResource)
+2023-10-20T09:52:41.187+1100 [TRACE] provider.stdio: waiting for stdio data
+2023-10-20T09:52:41.187+1100 [TRACE] vertex "random_pet.pet_name": starting visit (*terraform.NodeValidatableResource)
+2023-10-20T09:52:41.187+1100 [TRACE] vertex "random_pet.server": starting visit (*terraform.NodeValidatableResource)
+2023-10-20T09:52:41.188+1100 [TRACE] GRPCProvider: ValidateResourceConfig
+2023-10-20T09:52:41.188+1100 [TRACE] GRPCProvider: GetProviderSchema
+2023-10-20T09:52:41.188+1100 [TRACE] GRPCProvider: ValidateResourceConfig
+2023-10-20T09:52:41.188+1100 [TRACE] GRPCProvider: ValidateResourceConfig
+2023-10-20T09:52:41.188+1100 [TRACE] GRPCProvider: ValidateResourceConfig
+2023-10-20T09:52:41.188+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Received request: @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:490 @module=sdk.proto tf_req_id=b91aa193-74d4-6fe2-1273-d2f918558f87 tf_proto_version=5.2 tf_provider_addr=provider tf_rpc=GetProviderSchema timestamp=2023-10-20T09:52:41.188+1100
+2023-10-20T09:52:41.188+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Calling downstream: @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:497 tf_req_id=b91aa193-74d4-6fe2-1273-d2f918558f87 tf_rpc=GetProviderSchema @module=sdk.proto tf_proto_version=5.2 tf_provider_addr=provider timestamp=2023-10-20T09:52:41.188+1100
+2023-10-20T09:52:41.189+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Getting provider schema: @module=sdk.helper_schema tf_provider_addr=provider tf_req_id=b91aa193-74d4-6fe2-1273-d2f918558f87 tf_rpc=GetProviderSchema @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:70 timestamp=2023-10-20T09:52:41.188+1100
+2023-10-20T09:52:41.189+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Found resource type: @module=sdk.helper_schema tf_provider_addr=provider tf_rpc=GetProviderSchema @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:86 tf_req_id=b91aa193-74d4-6fe2-1273-d2f918558f87 tf_resource_type=random_integer timestamp=2023-10-20T09:52:41.188+1100
+2023-10-20T09:52:41.189+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Found resource type: @module=sdk.helper_schema tf_provider_addr=provider tf_req_id=b91aa193-74d4-6fe2-1273-d2f918558f87 tf_rpc=GetProviderSchema @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:86 tf_resource_type=random_uuid timestamp=2023-10-20T09:52:41.188+1100
+2023-10-20T09:52:41.189+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Found resource type: @module=sdk.helper_schema tf_provider_addr=provider tf_req_id=b91aa193-74d4-6fe2-1273-d2f918558f87 tf_resource_type=random_id tf_rpc=GetProviderSchema @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:86 timestamp=2023-10-20T09:52:41.188+1100
+2023-10-20T09:52:41.189+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Found resource type: tf_rpc=GetProviderSchema tf_req_id=b91aa193-74d4-6fe2-1273-d2f918558f87 @module=sdk.helper_schema tf_provider_addr=provider tf_resource_type=random_shuffle @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:86 timestamp=2023-10-20T09:52:41.188+1100
+2023-10-20T09:52:41.189+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Found resource type: @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:86 tf_req_id=b91aa193-74d4-6fe2-1273-d2f918558f87 @module=sdk.helper_schema tf_provider_addr=provider tf_resource_type=random_pet tf_rpc=GetProviderSchema timestamp=2023-10-20T09:52:41.188+1100
+2023-10-20T09:52:41.189+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Found resource type: tf_provider_addr=provider tf_req_id=b91aa193-74d4-6fe2-1273-d2f918558f87 tf_rpc=GetProviderSchema @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:86 @module=sdk.helper_schema tf_resource_type=random_string timestamp=2023-10-20T09:52:41.188+1100
+2023-10-20T09:52:41.189+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Found resource type: @module=sdk.helper_schema tf_req_id=b91aa193-74d4-6fe2-1273-d2f918558f87 tf_resource_type=random_password @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:86 tf_provider_addr=provider tf_rpc=GetProviderSchema timestamp=2023-10-20T09:52:41.188+1100
+2023-10-20T09:52:41.189+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Called downstream: tf_proto_version=5.2 tf_req_id=b91aa193-74d4-6fe2-1273-d2f918558f87 @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:503 @module=sdk.proto tf_provider_addr=provider tf_rpc=GetProviderSchema timestamp=2023-10-20T09:52:41.188+1100
+2023-10-20T09:52:41.189+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Served request: tf_req_id=b91aa193-74d4-6fe2-1273-d2f918558f87 tf_rpc=GetProviderSchema @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:509 tf_proto_version=5.2 tf_provider_addr=provider @module=sdk.proto timestamp=2023-10-20T09:52:41.188+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Received request: tf_req_id=75843914-e394-3074-4c22-7de5781e4d1a tf_resource_type=random_uuid tf_rpc=ValidateResourceTypeConfig @module=sdk.proto tf_proto_version=5.2 tf_provider_addr=provider @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:678 timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Skipping protocol data file writing because no data directory is set. Use the TF_LOG_SDK_PROTO_DATA_DIR environment variable to enable this functionality.: tf_provider_addr=provider tf_resource_type=random_uuid @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/internal/logging/protocol_data.go:38 tf_rpc=ValidateResourceTypeConfig @module=sdk.proto tf_proto_version=5.2 tf_req_id=75843914-e394-3074-4c22-7de5781e4d1a timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Calling downstream: tf_resource_type=random_uuid tf_rpc=ValidateResourceTypeConfig @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:686 tf_provider_addr=provider @module=sdk.proto tf_proto_version=5.2 tf_req_id=75843914-e394-3074-4c22-7de5781e4d1a timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Calling downstream: @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:245 @module=sdk.helper_schema tf_provider_addr=provider tf_req_id=75843914-e394-3074-4c22-7de5781e4d1a tf_resource_type=random_uuid tf_rpc=ValidateResourceTypeConfig timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Called downstream: tf_provider_addr=provider tf_resource_type=random_uuid tf_rpc=ValidateResourceTypeConfig @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:247 @module=sdk.helper_schema tf_req_id=75843914-e394-3074-4c22-7de5781e4d1a timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Called downstream: tf_req_id=75843914-e394-3074-4c22-7de5781e4d1a tf_rpc=ValidateResourceTypeConfig @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:692 tf_provider_addr=provider tf_proto_version=5.2 tf_resource_type=random_uuid @module=sdk.proto timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Served request: tf_rpc=ValidateResourceTypeConfig tf_provider_addr=provider tf_req_id=75843914-e394-3074-4c22-7de5781e4d1a @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:698 @module=sdk.proto tf_proto_version=5.2 tf_resource_type=random_uuid timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Received request: @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:678 @module=sdk.proto tf_req_id=c61d6e2b-5c3a-9f42-93cb-24d9242fcb64 tf_resource_type=random_pet tf_proto_version=5.2 tf_provider_addr=provider tf_rpc=ValidateResourceTypeConfig timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Calling downstream: @module=sdk.proto tf_provider_addr=provider @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:686 tf_proto_version=5.2 tf_req_id=c61d6e2b-5c3a-9f42-93cb-24d9242fcb64 tf_resource_type=random_pet tf_rpc=ValidateResourceTypeConfig timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Calling downstream: tf_provider_addr=provider tf_resource_type=random_pet @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:245 @module=sdk.helper_schema tf_req_id=c61d6e2b-5c3a-9f42-93cb-24d9242fcb64 tf_rpc=ValidateResourceTypeConfig timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Called downstream: tf_rpc=ValidateResourceTypeConfig @module=sdk.helper_schema tf_provider_addr=provider tf_req_id=c61d6e2b-5c3a-9f42-93cb-24d9242fcb64 tf_resource_type=random_pet @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:247 timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Called downstream: @module=sdk.proto tf_proto_version=5.2 tf_provider_addr=provider tf_resource_type=random_pet tf_rpc=ValidateResourceTypeConfig @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:692 tf_req_id=c61d6e2b-5c3a-9f42-93cb-24d9242fcb64 timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Served request: tf_provider_addr=provider tf_req_id=c61d6e2b-5c3a-9f42-93cb-24d9242fcb64 @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:698 @module=sdk.proto tf_proto_version=5.2 tf_resource_type=random_pet tf_rpc=ValidateResourceTypeConfig timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Received request: @module=sdk.proto tf_proto_version=5.2 tf_resource_type=random_pet @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:678 tf_provider_addr=provider tf_req_id=48dacae4-4905-f0a9-38e7-be9ccff473f5 tf_rpc=ValidateResourceTypeConfig timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Calling downstream: @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:686 @module=sdk.proto tf_resource_type=random_pet tf_rpc=ValidateResourceTypeConfig tf_proto_version=5.2 tf_provider_addr=provider tf_req_id=48dacae4-4905-f0a9-38e7-be9ccff473f5 timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] vertex "random_uuid.uux": visit complete
+2023-10-20T09:52:41.192+1100 [TRACE] vertex "output.t_uux (expand)": starting visit (*terraform.nodeExpandOutput)
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Calling downstream: @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:245 tf_provider_addr=provider @module=sdk.helper_schema tf_req_id=48dacae4-4905-f0a9-38e7-be9ccff473f5 tf_resource_type=random_pet tf_rpc=ValidateResourceTypeConfig timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Called downstream: tf_provider_addr=provider tf_req_id=48dacae4-4905-f0a9-38e7-be9ccff473f5 tf_resource_type=random_pet tf_rpc=ValidateResourceTypeConfig @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:247 @module=sdk.helper_schema timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Called downstream: @module=sdk.proto tf_resource_type=random_pet tf_rpc=ValidateResourceTypeConfig tf_proto_version=5.2 tf_provider_addr=provider tf_req_id=48dacae4-4905-f0a9-38e7-be9ccff473f5 @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:692 timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Served request: @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:698 @module=sdk.proto tf_resource_type=random_pet tf_rpc=ValidateResourceTypeConfig tf_proto_version=5.2 tf_provider_addr=provider tf_req_id=48dacae4-4905-f0a9-38e7-be9ccff473f5 timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Received request: tf_resource_type=random_string @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:678 tf_proto_version=5.2 tf_rpc=ValidateResourceTypeConfig @module=sdk.proto tf_provider_addr=provider tf_req_id=fe3a2e4e-b645-678d-0fd4-4db58275397f timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Calling downstream: tf_req_id=fe3a2e4e-b645-678d-0fd4-4db58275397f tf_resource_type=random_string @module=sdk.proto tf_rpc=ValidateResourceTypeConfig @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:686 tf_proto_version=5.2 tf_provider_addr=provider timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.192+1100 [TRACE] vertex "output.t_uux (expand)": expanding dynamic subgraph
+2023-10-20T09:52:41.193+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Calling downstream: tf_rpc=ValidateResourceTypeConfig @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:245 tf_req_id=fe3a2e4e-b645-678d-0fd4-4db58275397f tf_resource_type=random_string @module=sdk.helper_schema tf_provider_addr=provider timestamp=2023-10-20T09:52:41.192+1100
+2023-10-20T09:52:41.193+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Called downstream: tf_provider_addr=provider tf_req_id=fe3a2e4e-b645-678d-0fd4-4db58275397f @caller=github.com/hashicorp/terraform-plugin-sdk/v2@v2.17.0/helper/schema/grpc_provider.go:247 tf_resource_type=random_string tf_rpc=ValidateResourceTypeConfig @module=sdk.helper_schema timestamp=2023-10-20T09:52:41.193+1100
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "random_pet.pet_name": visit complete
+2023-10-20T09:52:41.193+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Called downstream: tf_rpc=ValidateResourceTypeConfig @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:692 @module=sdk.proto tf_req_id=fe3a2e4e-b645-678d-0fd4-4db58275397f tf_resource_type=random_string tf_proto_version=5.2 tf_provider_addr=provider timestamp=2023-10-20T09:52:41.193+1100
+2023-10-20T09:52:41.193+1100 [TRACE] provider.terraform-provider-random_v3.3.2_x5: Served request: tf_req_id=fe3a2e4e-b645-678d-0fd4-4db58275397f tf_resource_type=random_string tf_rpc=ValidateResourceTypeConfig @caller=github.com/hashicorp/terraform-plugin-go@v0.9.1/tfprotov5/tf5server/server.go:698 @module=sdk.proto tf_proto_version=5.2 tf_provider_addr=provider timestamp=2023-10-20T09:52:41.193+1100
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "random_string.random": visit complete
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "random_pet.server": visit complete
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.gatito_2 (expand)": starting visit (*terraform.nodeExpandOutput)
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.gatito_2 (expand)": expanding dynamic subgraph
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.quesito_name (expand)": starting visit (*terraform.nodeExpandOutput)
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.quesito_name (expand)": expanding dynamic subgraph
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.gatito_name (expand)": starting visit (*terraform.nodeExpandOutput)
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.gatito_name (expand)": expanding dynamic subgraph
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "provider[\"registry.terraform.io/hashicorp/random\"] (close)": starting visit (*terraform.graphNodeCloseProvider)
+2023-10-20T09:52:41.193+1100 [TRACE] GRPCProvider: Close
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.pet_name (expand)": starting visit (*terraform.nodeExpandOutput)
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.pet_name (expand)": expanding dynamic subgraph
+2023-10-20T09:52:41.193+1100 [TRACE] Expanding output: adding output.pet_name as *terraform.NodeApplyableOutput
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.pet_name (expand)": entering dynamic subgraph
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.pet_name": starting visit (*terraform.NodeApplyableOutput)
+2023-10-20T09:52:41.193+1100 [TRACE] Expanding output: adding output.gatito_2 as *terraform.NodeApplyableOutput
+2023-10-20T09:52:41.193+1100 [TRACE] Expanding output: adding output.gatito_name as *terraform.NodeApplyableOutput
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.gatito_name (expand)": entering dynamic subgraph
+2023-10-20T09:52:41.193+1100 [TRACE] Expanding output: adding output.quesito_name as *terraform.NodeApplyableOutput
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.quesito_name (expand)": entering dynamic subgraph
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.gatito_name": starting visit (*terraform.NodeApplyableOutput)
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.quesito_name": starting visit (*terraform.NodeApplyableOutput)
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.gatito_2 (expand)": entering dynamic subgraph
+2023-10-20T09:52:41.193+1100 [TRACE] Expanding output: adding output.t_uux as *terraform.NodeApplyableOutput
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.t_uux (expand)": entering dynamic subgraph
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.t_uux": starting visit (*terraform.NodeApplyableOutput)
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.rs (expand)": starting visit (*terraform.nodeExpandOutput)
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.rs (expand)": expanding dynamic subgraph
+2023-10-20T09:52:41.193+1100 [TRACE] Expanding output: adding output.rs as *terraform.NodeApplyableOutput
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.rs (expand)": entering dynamic subgraph
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.gatito_2": starting visit (*terraform.NodeApplyableOutput)
+2023-10-20T09:52:41.193+1100 [TRACE] vertex "output.rs": starting visit (*terraform.NodeApplyableOutput)
+2023-10-20T09:52:41.194+1100 [DEBUG] provider.stdio: received EOF, stopping recv loop: err="rpc error: code = Unavailable desc = error reading from server: EOF"
+2023-10-20T09:52:41.194+1100 [TRACE] setValue: Saving Create change for output.t_uux in changeset
+2023-10-20T09:52:41.194+1100 [TRACE] setValue: Saving Create change for output.quesito_name in changeset
+2023-10-20T09:52:41.194+1100 [TRACE] setValue: Saving Create change for output.gatito_2 in changeset
+2023-10-20T09:52:41.194+1100 [TRACE] setValue: Saving value for output.gatito_2 in state
+2023-10-20T09:52:41.194+1100 [TRACE] setValue: Saving value for output.t_uux in state
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.t_uux": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "root": starting visit (terraform.graphNodeRoot)
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "root": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.t_uux (expand)": dynamic subgraph completed successfully
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.t_uux (expand)": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] setValue: Saving value for output.quesito_name in state
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.quesito_name": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "root": starting visit (terraform.graphNodeRoot)
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "root": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.quesito_name (expand)": dynamic subgraph completed successfully
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.quesito_name (expand)": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] setValue: Saving Create change for output.pet_name in changeset
+2023-10-20T09:52:41.194+1100 [TRACE] setValue: Saving value for output.pet_name in state
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.pet_name": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "root": starting visit (terraform.graphNodeRoot)
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "root": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.pet_name (expand)": dynamic subgraph completed successfully
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.pet_name (expand)": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] setValue: Saving Create change for output.rs in changeset
+2023-10-20T09:52:41.194+1100 [TRACE] setValue: Saving value for output.rs in state
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.rs": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "root": starting visit (terraform.graphNodeRoot)
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "root": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.rs (expand)": dynamic subgraph completed successfully
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.rs (expand)": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] setValue: Saving Create change for output.gatito_name in changeset
+2023-10-20T09:52:41.194+1100 [TRACE] setValue: Saving value for output.gatito_name in state
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.gatito_name": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "root": starting visit (terraform.graphNodeRoot)
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "root": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.gatito_name (expand)": dynamic subgraph completed successfully
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.gatito_name (expand)": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.gatito_2": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "root": starting visit (terraform.graphNodeRoot)
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "root": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.gatito_2 (expand)": dynamic subgraph completed successfully
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "output.gatito_2 (expand)": visit complete
+2023-10-20T09:52:41.194+1100 [DEBUG] provider: plugin process exited: path=.terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64/terraform-provider-random_v3.3.2_x5 pid=28657
+2023-10-20T09:52:41.194+1100 [DEBUG] provider: plugin exited
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "provider[\"registry.terraform.io/hashicorp/random\"] (close)": visit complete
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "root": starting visit (*terraform.nodeCloseModule)
+2023-10-20T09:52:41.194+1100 [TRACE] vertex "root": visit complete
+2023-10-20T09:52:43.239+1100 [INFO]  Terraform version: 1.5.7
+2023-10-20T09:52:43.239+1100 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2023-10-20T09:52:43.239+1100 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2023-10-20T09:52:43.239+1100 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2023-10-20T09:52:43.239+1100 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2023-10-20T09:52:43.239+1100 [INFO]  Go runtime version: go1.20.7
+2023-10-20T09:52:43.239+1100 [INFO]  CLI args: []string{"/opt/homebrew/bin/terraform", "plan"}
+2023-10-20T09:52:43.239+1100 [TRACE] Stdout is a terminal of width 166
+2023-10-20T09:52:43.239+1100 [TRACE] Stderr is a terminal of width 166
+2023-10-20T09:52:43.239+1100 [TRACE] Stdin is a terminal
+2023-10-20T09:52:43.239+1100 [DEBUG] Attempting to open CLI config file: /Users/roberto/.terraformrc
+2023-10-20T09:52:43.239+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraformrc
+2023-10-20T09:52:43.240+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraform.d/credentials.tfrc.json
+2023-10-20T09:52:43.240+1100 [DEBUG] checking for credentials in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T09:52:43.240+1100 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-10-20T09:52:43.240+1100 [DEBUG] will search for provider plugins in /Users/roberto/.terraform.d/plugins
+2023-10-20T09:52:43.240+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/template v2.2.0 for darwin_arm64 at /Users/roberto/.terraform.d/plugins/registry.terraform.io/hashicorp/template/2.2.0/darwin_arm64
+2023-10-20T09:52:43.240+1100 [DEBUG] ignoring non-existing provider search directory /Users/roberto/Library/Application Support/io.terraform/plugins
+2023-10-20T09:52:43.240+1100 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-10-20T09:52:43.241+1100 [INFO]  CLI command args: []string{"plan"}
+2023-10-20T09:52:43.242+1100 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2242617002
+2023-10-20T09:52:43.243+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T09:52:43.243+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T09:52:43.243+1100 [TRACE] Meta.Backend: working directory was previously initialized for "cloud" backend
+2023-10-20T09:52:43.243+1100 [TRACE] Meta.Backend: using already-initialized, unchanged "cloud" backend configuration
+2023-10-20T09:52:43.244+1100 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2023-10-20T09:52:43.244+1100 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2023-10-20T09:52:45.376+1100 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2023-10-20T09:52:45.376+1100 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2023-10-20T09:52:45.377+1100 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2023-10-20T09:52:45.378+1100 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2023-10-20T09:52:45.379+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.0.1 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64
+2023-10-20T09:52:45.379+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/random v3.3.2 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64
+2023-10-20T09:52:45.379+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.0.1
+2023-10-20T09:52:45.379+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/random 3.3.2
+2023-10-20T09:52:45.498+1100 [TRACE] providercache.fillMetaCache: using cached result from previous scan of .terraform/providers
+2023-10-20T09:52:45.506+1100 [DEBUG] checking for provisioner in "."
+2023-10-20T09:52:45.509+1100 [DEBUG] checking for provisioner in "/opt/homebrew/bin"
+2023-10-20T09:52:45.509+1100 [DEBUG] checking for provisioner in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T09:52:45.509+1100 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2023-10-20T09:52:45.809+1100 [INFO]  cloud: starting Plan operation
+2023-10-20T09:53:34.569+1100 [DEBUG] performing request: method=GET url=https://app.terraform.io/api/v2/plans/plan-YgvRhbLBsvusKaPc/json-output-redacted
+2023-10-20T09:54:13.123+1100 [INFO]  Terraform version: 1.5.7
+2023-10-20T09:54:13.124+1100 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2023-10-20T09:54:13.124+1100 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2023-10-20T09:54:13.124+1100 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2023-10-20T09:54:13.124+1100 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2023-10-20T09:54:13.124+1100 [INFO]  Go runtime version: go1.20.7
+2023-10-20T09:54:13.124+1100 [INFO]  CLI args: []string{"/opt/homebrew/bin/terraform", "apply"}
+2023-10-20T09:54:13.124+1100 [TRACE] Stdout is a terminal of width 166
+2023-10-20T09:54:13.124+1100 [TRACE] Stderr is a terminal of width 166
+2023-10-20T09:54:13.124+1100 [TRACE] Stdin is a terminal
+2023-10-20T09:54:13.124+1100 [DEBUG] Attempting to open CLI config file: /Users/roberto/.terraformrc
+2023-10-20T09:54:13.124+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraformrc
+2023-10-20T09:54:13.125+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraform.d/credentials.tfrc.json
+2023-10-20T09:54:13.125+1100 [DEBUG] checking for credentials in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T09:54:13.125+1100 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-10-20T09:54:13.125+1100 [DEBUG] will search for provider plugins in /Users/roberto/.terraform.d/plugins
+2023-10-20T09:54:13.129+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/template v2.2.0 for darwin_arm64 at /Users/roberto/.terraform.d/plugins/registry.terraform.io/hashicorp/template/2.2.0/darwin_arm64
+2023-10-20T09:54:13.129+1100 [DEBUG] ignoring non-existing provider search directory /Users/roberto/Library/Application Support/io.terraform/plugins
+2023-10-20T09:54:13.129+1100 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-10-20T09:54:13.130+1100 [INFO]  CLI command args: []string{"apply"}
+2023-10-20T09:54:13.139+1100 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2242617002
+2023-10-20T09:54:13.139+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T09:54:13.139+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T09:54:13.139+1100 [TRACE] Meta.Backend: working directory was previously initialized for "cloud" backend
+2023-10-20T09:54:13.139+1100 [TRACE] Meta.Backend: using already-initialized, unchanged "cloud" backend configuration
+2023-10-20T09:54:13.140+1100 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2023-10-20T09:54:13.141+1100 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2023-10-20T09:54:15.214+1100 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2023-10-20T09:54:15.214+1100 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2023-10-20T09:54:15.215+1100 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2023-10-20T09:54:15.217+1100 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2023-10-20T09:54:15.217+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.0.1 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64
+2023-10-20T09:54:15.218+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/random v3.3.2 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64
+2023-10-20T09:54:15.218+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.0.1
+2023-10-20T09:54:15.218+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/random 3.3.2
+2023-10-20T09:54:15.413+1100 [TRACE] providercache.fillMetaCache: using cached result from previous scan of .terraform/providers
+2023-10-20T09:54:15.423+1100 [DEBUG] checking for provisioner in "."
+2023-10-20T09:54:15.426+1100 [DEBUG] checking for provisioner in "/opt/homebrew/bin"
+2023-10-20T09:54:15.426+1100 [DEBUG] checking for provisioner in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T09:54:15.426+1100 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2023-10-20T09:54:15.741+1100 [INFO]  cloud: starting Apply operation
+2023-10-20T09:55:02.437+1100 [DEBUG] performing request: method=GET url=https://app.terraform.io/api/v2/plans/plan-TcAe6xocD9M45oXq/json-output-redacted
+2023-10-20T09:55:06.962+1100 [DEBUG] command: asking for input: "\nDo you want to perform these actions in workspace \"terraform\"?"
+2023-10-20T09:58:37.162+1100 [INFO]  Terraform version: 1.5.7
+2023-10-20T09:58:37.162+1100 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2023-10-20T09:58:37.162+1100 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2023-10-20T09:58:37.162+1100 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2023-10-20T09:58:37.162+1100 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2023-10-20T09:58:37.162+1100 [INFO]  Go runtime version: go1.20.7
+2023-10-20T09:58:37.162+1100 [INFO]  CLI args: []string{"/opt/homebrew/bin/terraform", "destroy"}
+2023-10-20T09:58:37.162+1100 [TRACE] Stdout is a terminal of width 166
+2023-10-20T09:58:37.162+1100 [TRACE] Stderr is a terminal of width 166
+2023-10-20T09:58:37.162+1100 [TRACE] Stdin is a terminal
+2023-10-20T09:58:37.162+1100 [DEBUG] Attempting to open CLI config file: /Users/roberto/.terraformrc
+2023-10-20T09:58:37.162+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraformrc
+2023-10-20T09:58:37.163+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraform.d/credentials.tfrc.json
+2023-10-20T09:58:37.164+1100 [DEBUG] checking for credentials in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T09:58:37.164+1100 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-10-20T09:58:37.164+1100 [DEBUG] will search for provider plugins in /Users/roberto/.terraform.d/plugins
+2023-10-20T09:58:37.165+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/template v2.2.0 for darwin_arm64 at /Users/roberto/.terraform.d/plugins/registry.terraform.io/hashicorp/template/2.2.0/darwin_arm64
+2023-10-20T09:58:37.165+1100 [DEBUG] ignoring non-existing provider search directory /Users/roberto/Library/Application Support/io.terraform/plugins
+2023-10-20T09:58:37.165+1100 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-10-20T09:58:37.168+1100 [INFO]  CLI command args: []string{"destroy"}
+2023-10-20T09:58:37.177+1100 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2242617002
+2023-10-20T09:58:37.178+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T09:58:37.178+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T09:58:37.178+1100 [TRACE] Meta.Backend: working directory was previously initialized for "cloud" backend
+2023-10-20T09:58:37.178+1100 [TRACE] Meta.Backend: using already-initialized, unchanged "cloud" backend configuration
+2023-10-20T09:58:37.178+1100 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2023-10-20T09:58:37.179+1100 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2023-10-20T09:58:39.298+1100 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2023-10-20T09:58:39.299+1100 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2023-10-20T09:58:39.299+1100 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2023-10-20T09:58:39.302+1100 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2023-10-20T09:58:39.304+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.0.1 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64
+2023-10-20T09:58:39.304+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/random v3.3.2 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64
+2023-10-20T09:58:39.305+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.0.1
+2023-10-20T09:58:39.305+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/random 3.3.2
+2023-10-20T09:58:39.516+1100 [TRACE] providercache.fillMetaCache: using cached result from previous scan of .terraform/providers
+2023-10-20T09:58:39.526+1100 [DEBUG] checking for provisioner in "."
+2023-10-20T09:58:39.529+1100 [DEBUG] checking for provisioner in "/opt/homebrew/bin"
+2023-10-20T09:58:39.529+1100 [DEBUG] checking for provisioner in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T09:58:39.529+1100 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2023-10-20T09:58:39.840+1100 [INFO]  cloud: starting Apply operation
+2023-10-20T09:59:25.043+1100 [DEBUG] performing request: method=GET url=https://app.terraform.io/api/v2/plans/plan-MibzYGZ1186rCWDQ/json-output-redacted
+2023-10-20T09:59:30.109+1100 [DEBUG] command: asking for input: "\nDo you really want to destroy all resources in workspace \"terraform\"?"
+2023-10-20T10:03:59.597+1100 [INFO]  Terraform version: 1.5.7
+2023-10-20T10:03:59.597+1100 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2023-10-20T10:03:59.597+1100 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2023-10-20T10:03:59.597+1100 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2023-10-20T10:03:59.597+1100 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2023-10-20T10:03:59.597+1100 [INFO]  Go runtime version: go1.20.7
+2023-10-20T10:03:59.597+1100 [INFO]  CLI args: []string{"/opt/homebrew/bin/terraform", "state", "list"}
+2023-10-20T10:03:59.598+1100 [TRACE] Stdout is a terminal of width 166
+2023-10-20T10:03:59.598+1100 [TRACE] Stderr is a terminal of width 166
+2023-10-20T10:03:59.598+1100 [TRACE] Stdin is a terminal
+2023-10-20T10:03:59.598+1100 [DEBUG] Attempting to open CLI config file: /Users/roberto/.terraformrc
+2023-10-20T10:03:59.598+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraformrc
+2023-10-20T10:03:59.599+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraform.d/credentials.tfrc.json
+2023-10-20T10:03:59.599+1100 [DEBUG] checking for credentials in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T10:03:59.599+1100 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-10-20T10:03:59.599+1100 [DEBUG] will search for provider plugins in /Users/roberto/.terraform.d/plugins
+2023-10-20T10:03:59.600+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/template v2.2.0 for darwin_arm64 at /Users/roberto/.terraform.d/plugins/registry.terraform.io/hashicorp/template/2.2.0/darwin_arm64
+2023-10-20T10:03:59.600+1100 [DEBUG] ignoring non-existing provider search directory /Users/roberto/Library/Application Support/io.terraform/plugins
+2023-10-20T10:03:59.600+1100 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-10-20T10:03:59.601+1100 [INFO]  CLI command args: []string{"state", "list"}
+2023-10-20T10:03:59.612+1100 [TRACE] Meta.Backend: BackendOpts.Config not set, so using settings loaded from :0,0-0
+2023-10-20T10:03:59.613+1100 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2242617002
+2023-10-20T10:03:59.614+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T10:03:59.614+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T10:03:59.614+1100 [TRACE] Meta.Backend: working directory was previously initialized for "cloud" backend
+2023-10-20T10:03:59.614+1100 [TRACE] Meta.Backend: using already-initialized, unchanged "cloud" backend configuration
+2023-10-20T10:03:59.615+1100 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2023-10-20T10:03:59.616+1100 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2023-10-20T10:04:01.673+1100 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2023-10-20T10:04:01.674+1100 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2023-10-20T10:04:01.674+1100 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2023-10-20T10:04:01.676+1100 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2023-10-20T10:04:01.678+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.0.1 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64
+2023-10-20T10:04:01.678+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/random v3.3.2 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64
+2023-10-20T10:04:01.678+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.0.1
+2023-10-20T10:04:01.678+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/random 3.3.2
+2023-10-20T10:04:01.688+1100 [TRACE] providercache.fillMetaCache: using cached result from previous scan of .terraform/providers
+2023-10-20T10:04:01.879+1100 [DEBUG] checking for provisioner in "."
+2023-10-20T10:04:01.882+1100 [DEBUG] checking for provisioner in "/opt/homebrew/bin"
+2023-10-20T10:04:01.882+1100 [DEBUG] checking for provisioner in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T10:04:01.882+1100 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2023-10-20T10:04:12.844+1100 [INFO]  Terraform version: 1.5.7
+2023-10-20T10:04:12.844+1100 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2023-10-20T10:04:12.844+1100 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2023-10-20T10:04:12.844+1100 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2023-10-20T10:04:12.844+1100 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2023-10-20T10:04:12.844+1100 [INFO]  Go runtime version: go1.20.7
+2023-10-20T10:04:12.844+1100 [INFO]  CLI args: []string{"/opt/homebrew/bin/terraform", "state", "destroy"}
+2023-10-20T10:04:12.844+1100 [TRACE] Stdout is a terminal of width 166
+2023-10-20T10:04:12.844+1100 [TRACE] Stderr is a terminal of width 166
+2023-10-20T10:04:12.844+1100 [TRACE] Stdin is a terminal
+2023-10-20T10:04:12.844+1100 [DEBUG] Attempting to open CLI config file: /Users/roberto/.terraformrc
+2023-10-20T10:04:12.844+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraformrc
+2023-10-20T10:04:12.844+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraform.d/credentials.tfrc.json
+2023-10-20T10:04:12.845+1100 [DEBUG] checking for credentials in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T10:04:12.845+1100 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-10-20T10:04:12.845+1100 [DEBUG] will search for provider plugins in /Users/roberto/.terraform.d/plugins
+2023-10-20T10:04:12.845+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/template v2.2.0 for darwin_arm64 at /Users/roberto/.terraform.d/plugins/registry.terraform.io/hashicorp/template/2.2.0/darwin_arm64
+2023-10-20T10:04:12.845+1100 [DEBUG] ignoring non-existing provider search directory /Users/roberto/Library/Application Support/io.terraform/plugins
+2023-10-20T10:04:12.845+1100 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-10-20T10:04:12.845+1100 [INFO]  CLI command args: []string{"state", "destroy"}
+2023-10-20T10:04:21.026+1100 [INFO]  Terraform version: 1.5.7
+2023-10-20T10:04:21.026+1100 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2023-10-20T10:04:21.026+1100 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2023-10-20T10:04:21.026+1100 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2023-10-20T10:04:21.026+1100 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2023-10-20T10:04:21.026+1100 [INFO]  Go runtime version: go1.20.7
+2023-10-20T10:04:21.026+1100 [INFO]  CLI args: []string{"/opt/homebrew/bin/terraform", "state", "show"}
+2023-10-20T10:04:21.026+1100 [TRACE] Stdout is a terminal of width 166
+2023-10-20T10:04:21.026+1100 [TRACE] Stderr is a terminal of width 166
+2023-10-20T10:04:21.026+1100 [TRACE] Stdin is a terminal
+2023-10-20T10:04:21.026+1100 [DEBUG] Attempting to open CLI config file: /Users/roberto/.terraformrc
+2023-10-20T10:04:21.026+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraformrc
+2023-10-20T10:04:21.026+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraform.d/credentials.tfrc.json
+2023-10-20T10:04:21.027+1100 [DEBUG] checking for credentials in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T10:04:21.027+1100 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-10-20T10:04:21.027+1100 [DEBUG] will search for provider plugins in /Users/roberto/.terraform.d/plugins
+2023-10-20T10:04:21.027+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/template v2.2.0 for darwin_arm64 at /Users/roberto/.terraform.d/plugins/registry.terraform.io/hashicorp/template/2.2.0/darwin_arm64
+2023-10-20T10:04:21.027+1100 [DEBUG] ignoring non-existing provider search directory /Users/roberto/Library/Application Support/io.terraform/plugins
+2023-10-20T10:04:21.027+1100 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-10-20T10:04:21.027+1100 [INFO]  CLI command args: []string{"state", "show"}
+2023-10-20T10:04:24.529+1100 [INFO]  Terraform version: 1.5.7
+2023-10-20T10:04:24.529+1100 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2023-10-20T10:04:24.529+1100 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2023-10-20T10:04:24.529+1100 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2023-10-20T10:04:24.529+1100 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2023-10-20T10:04:24.529+1100 [INFO]  Go runtime version: go1.20.7
+2023-10-20T10:04:24.529+1100 [INFO]  CLI args: []string{"/opt/homebrew/bin/terraform", "state", "list"}
+2023-10-20T10:04:24.529+1100 [TRACE] Stdout is a terminal of width 166
+2023-10-20T10:04:24.529+1100 [TRACE] Stderr is a terminal of width 166
+2023-10-20T10:04:24.529+1100 [TRACE] Stdin is a terminal
+2023-10-20T10:04:24.529+1100 [DEBUG] Attempting to open CLI config file: /Users/roberto/.terraformrc
+2023-10-20T10:04:24.529+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraformrc
+2023-10-20T10:04:24.529+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraform.d/credentials.tfrc.json
+2023-10-20T10:04:24.529+1100 [DEBUG] checking for credentials in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T10:04:24.529+1100 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-10-20T10:04:24.529+1100 [DEBUG] will search for provider plugins in /Users/roberto/.terraform.d/plugins
+2023-10-20T10:04:24.530+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/template v2.2.0 for darwin_arm64 at /Users/roberto/.terraform.d/plugins/registry.terraform.io/hashicorp/template/2.2.0/darwin_arm64
+2023-10-20T10:04:24.530+1100 [DEBUG] ignoring non-existing provider search directory /Users/roberto/Library/Application Support/io.terraform/plugins
+2023-10-20T10:04:24.530+1100 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-10-20T10:04:24.530+1100 [INFO]  CLI command args: []string{"state", "list"}
+2023-10-20T10:04:24.532+1100 [TRACE] Meta.Backend: BackendOpts.Config not set, so using settings loaded from :0,0-0
+2023-10-20T10:04:24.532+1100 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2242617002
+2023-10-20T10:04:24.532+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T10:04:24.532+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T10:04:24.532+1100 [TRACE] Meta.Backend: working directory was previously initialized for "cloud" backend
+2023-10-20T10:04:24.532+1100 [TRACE] Meta.Backend: using already-initialized, unchanged "cloud" backend configuration
+2023-10-20T10:04:24.532+1100 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2023-10-20T10:04:24.532+1100 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2023-10-20T10:04:26.980+1100 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2023-10-20T10:04:26.980+1100 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2023-10-20T10:04:26.980+1100 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2023-10-20T10:04:26.982+1100 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2023-10-20T10:04:26.983+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.0.1 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64
+2023-10-20T10:04:26.984+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/random v3.3.2 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64
+2023-10-20T10:04:26.984+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.0.1
+2023-10-20T10:04:26.984+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/random 3.3.2
+2023-10-20T10:04:27.002+1100 [TRACE] providercache.fillMetaCache: using cached result from previous scan of .terraform/providers
+2023-10-20T10:04:27.198+1100 [DEBUG] checking for provisioner in "."
+2023-10-20T10:04:27.200+1100 [DEBUG] checking for provisioner in "/opt/homebrew/bin"
+2023-10-20T10:04:27.200+1100 [DEBUG] checking for provisioner in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T10:04:27.200+1100 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2023-10-20T10:04:41.603+1100 [INFO]  Terraform version: 1.5.7
+2023-10-20T10:04:41.603+1100 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2023-10-20T10:04:41.603+1100 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2023-10-20T10:04:41.603+1100 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2023-10-20T10:04:41.603+1100 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2023-10-20T10:04:41.604+1100 [INFO]  Go runtime version: go1.20.7
+2023-10-20T10:04:41.604+1100 [INFO]  CLI args: []string{"/opt/homebrew/bin/terraform", "apply"}
+2023-10-20T10:04:41.604+1100 [TRACE] Stdout is a terminal of width 166
+2023-10-20T10:04:41.604+1100 [TRACE] Stderr is a terminal of width 166
+2023-10-20T10:04:41.604+1100 [TRACE] Stdin is a terminal
+2023-10-20T10:04:41.604+1100 [DEBUG] Attempting to open CLI config file: /Users/roberto/.terraformrc
+2023-10-20T10:04:41.604+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraformrc
+2023-10-20T10:04:41.604+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraform.d/credentials.tfrc.json
+2023-10-20T10:04:41.604+1100 [DEBUG] checking for credentials in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T10:04:41.604+1100 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-10-20T10:04:41.604+1100 [DEBUG] will search for provider plugins in /Users/roberto/.terraform.d/plugins
+2023-10-20T10:04:41.605+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/template v2.2.0 for darwin_arm64 at /Users/roberto/.terraform.d/plugins/registry.terraform.io/hashicorp/template/2.2.0/darwin_arm64
+2023-10-20T10:04:41.605+1100 [DEBUG] ignoring non-existing provider search directory /Users/roberto/Library/Application Support/io.terraform/plugins
+2023-10-20T10:04:41.605+1100 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-10-20T10:04:41.606+1100 [INFO]  CLI command args: []string{"apply"}
+2023-10-20T10:04:41.611+1100 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2242617002
+2023-10-20T10:04:41.612+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T10:04:41.612+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T10:04:41.612+1100 [TRACE] Meta.Backend: working directory was previously initialized for "cloud" backend
+2023-10-20T10:04:41.612+1100 [TRACE] Meta.Backend: using already-initialized, unchanged "cloud" backend configuration
+2023-10-20T10:04:41.612+1100 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2023-10-20T10:04:41.613+1100 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2023-10-20T10:04:43.667+1100 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2023-10-20T10:04:43.667+1100 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2023-10-20T10:04:43.667+1100 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2023-10-20T10:04:43.673+1100 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2023-10-20T10:04:43.674+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.0.1 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64
+2023-10-20T10:04:43.674+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/random v3.3.2 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64
+2023-10-20T10:04:43.674+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.0.1
+2023-10-20T10:04:43.674+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/random 3.3.2
+2023-10-20T10:04:43.684+1100 [TRACE] providercache.fillMetaCache: using cached result from previous scan of .terraform/providers
+2023-10-20T10:04:43.867+1100 [DEBUG] checking for provisioner in "."
+2023-10-20T10:04:43.869+1100 [DEBUG] checking for provisioner in "/opt/homebrew/bin"
+2023-10-20T10:04:43.869+1100 [DEBUG] checking for provisioner in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T10:04:43.870+1100 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2023-10-20T10:04:44.199+1100 [INFO]  cloud: starting Apply operation
+2023-10-20T10:05:31.038+1100 [DEBUG] performing request: method=GET url=https://app.terraform.io/api/v2/plans/plan-LR59pjigPJCHYpmL/json-output-redacted
+2023-10-20T10:05:36.425+1100 [DEBUG] command: asking for input: "\nDo you want to perform these actions in workspace \"terraform\"?"
+2023-10-20T10:20:21.529+1100 [INFO]  Terraform version: 1.5.7
+2023-10-20T10:20:21.530+1100 [DEBUG] using github.com/hashicorp/go-tfe v1.26.0
+2023-10-20T10:20:21.530+1100 [DEBUG] using github.com/hashicorp/hcl/v2 v2.16.2
+2023-10-20T10:20:21.530+1100 [DEBUG] using github.com/hashicorp/terraform-svchost v0.1.0
+2023-10-20T10:20:21.530+1100 [DEBUG] using github.com/zclconf/go-cty v1.12.2
+2023-10-20T10:20:21.530+1100 [INFO]  Go runtime version: go1.20.7
+2023-10-20T10:20:21.530+1100 [INFO]  CLI args: []string{"/opt/homebrew/bin/terraform", "destroy"}
+2023-10-20T10:20:21.530+1100 [TRACE] Stdout is a terminal of width 166
+2023-10-20T10:20:21.530+1100 [TRACE] Stderr is a terminal of width 166
+2023-10-20T10:20:21.530+1100 [TRACE] Stdin is a terminal
+2023-10-20T10:20:21.530+1100 [DEBUG] Attempting to open CLI config file: /Users/roberto/.terraformrc
+2023-10-20T10:20:21.530+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraformrc
+2023-10-20T10:20:21.531+1100 [INFO]  Loading CLI configuration from /Users/roberto/.terraform.d/credentials.tfrc.json
+2023-10-20T10:20:21.532+1100 [DEBUG] checking for credentials in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T10:20:21.532+1100 [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2023-10-20T10:20:21.532+1100 [DEBUG] will search for provider plugins in /Users/roberto/.terraform.d/plugins
+2023-10-20T10:20:21.533+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/template v2.2.0 for darwin_arm64 at /Users/roberto/.terraform.d/plugins/registry.terraform.io/hashicorp/template/2.2.0/darwin_arm64
+2023-10-20T10:20:21.534+1100 [DEBUG] ignoring non-existing provider search directory /Users/roberto/Library/Application Support/io.terraform/plugins
+2023-10-20T10:20:21.534+1100 [DEBUG] ignoring non-existing provider search directory /Library/Application Support/io.terraform/plugins
+2023-10-20T10:20:21.538+1100 [INFO]  CLI command args: []string{"destroy"}
+2023-10-20T10:20:21.548+1100 [TRACE] Meta.Backend: built configuration for "cloud" backend with hash value 2242617002
+2023-10-20T10:20:21.550+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T10:20:21.553+1100 [TRACE] Preserving existing state lineage "6d8907c9-53e2-0c84-45d5-3a64f5dd52fc"
+2023-10-20T10:20:21.554+1100 [TRACE] Meta.Backend: working directory was previously initialized for "cloud" backend
+2023-10-20T10:20:21.554+1100 [TRACE] Meta.Backend: using already-initialized, unchanged "cloud" backend configuration
+2023-10-20T10:20:21.554+1100 [DEBUG] Service discovery for app.terraform.io at https://app.terraform.io/.well-known/terraform.json
+2023-10-20T10:20:21.555+1100 [TRACE] HTTP client GET request to https://app.terraform.io/.well-known/terraform.json
+2023-10-20T10:20:23.577+1100 [TRACE] Meta.BackendForPlan: backend *cloud.Cloud supports operations
+2023-10-20T10:20:23.578+1100 [DEBUG] Service discovery for app.terraform.io aliased as localterraform.com
+2023-10-20T10:20:23.578+1100 [TRACE] Meta.Backend: instantiated backend of type *cloud.Cloud
+2023-10-20T10:20:23.581+1100 [TRACE] providercache.fillMetaCache: scanning directory .terraform/providers
+2023-10-20T10:20:23.582+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/azurerm v3.0.1 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64
+2023-10-20T10:20:23.582+1100 [TRACE] getproviders.SearchLocalDirectory: found registry.terraform.io/hashicorp/random v3.3.2 for darwin_arm64 at .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64
+2023-10-20T10:20:23.582+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/azurerm/3.0.1/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/azurerm 3.0.1
+2023-10-20T10:20:23.582+1100 [TRACE] providercache.fillMetaCache: including .terraform/providers/registry.terraform.io/hashicorp/random/3.3.2/darwin_arm64 as a candidate package for registry.terraform.io/hashicorp/random 3.3.2
+2023-10-20T10:20:23.808+1100 [TRACE] providercache.fillMetaCache: using cached result from previous scan of .terraform/providers
+2023-10-20T10:20:23.826+1100 [DEBUG] checking for provisioner in "."
+2023-10-20T10:20:23.829+1100 [DEBUG] checking for provisioner in "/opt/homebrew/bin"
+2023-10-20T10:20:23.829+1100 [DEBUG] checking for provisioner in "/Users/roberto/.terraform.d/plugins"
+2023-10-20T10:20:23.830+1100 [TRACE] Meta.Backend: backend *cloud.Cloud supports operations
+2023-10-20T10:20:24.129+1100 [INFO]  cloud: starting Apply operation
+2023-10-20T10:21:06.357+1100 [DEBUG] performing request: method=GET url=https://app.terraform.io/api/v2/plans/plan-L9FkonCmxC47iwVe/json-output-redacted
+2023-10-20T10:21:11.577+1100 [DEBUG] command: asking for input: "\nDo you really want to destroy all resources in workspace \"terraform\"?"

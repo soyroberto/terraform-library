@@ -17,7 +17,8 @@ resource "random_pet" "sto_acct" {
 }
 
 data "azurerm_resource_group" "xrg" {
-  name = "rgkvaus"
+  #name = "rgkvaus"
+  name = var.azrg
 }
 
 resource "azurerm_storage_account" "az_sto" {

@@ -4,6 +4,6 @@ variable "location" {
 }
 
 
-variable "azurerm_resource_group" {
-  default = "RGAADX"
+variable "azrg" {
+  default = "rgkvaus"
 }
