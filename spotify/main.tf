@@ -10,14 +10,18 @@ terraform {
   }
 }
 
+variable "compositor" {
+  type    = list(string)
+  default = ["Johann Sebastian Bach", "Ludwig van Beethoven", "Pyotr Ilyich Tchaikovsky"]
+}
+
 provider "spotify" {
   api_key = var.spotify_api_key
 }
 
 data "spotify_search_track" "by_artist" {
-  artist = "Johann Sebastian Bach"
-  #  album = "Jolene"
-  #  name  = "Early Morning Breeze"
+  for_each = { for artist in var.compositor : artist => artist }
+  artist = each.value
 }
 
 resource "spotify_playlist" "playlist" {
@@ -25,9 +29,9 @@ resource "spotify_playlist" "playlist" {
   description = "Creada por @soyroberto c/Terraform"
   public      = true
 
-  tracks = [
-    data.spotify_search_track.by_artist.tracks[0].id,
-    data.spotify_search_track.by_artist.tracks[1].id,
-    data.spotify_search_track.by_artist.tracks[2].id,
-  ]
+  tracks = flatten([
+    for artist, track_data in data.spotify_search_track.by_artist : [
+      for track in track_data.tracks : track.id
+    ]
+  ])
 }
