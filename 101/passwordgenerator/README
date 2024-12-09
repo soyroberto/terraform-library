@@ -1,0 +1,10 @@
+Create a random password with the following requirements:
+  - Length: 18
+  - Special characters: !#$%&*()-_=+[]{}<>:?
+  - Output the password as a sensitive output
+  to show the password in the Terraform output
+  terraform output espassword
+  to regenerate the password
+   ** terraform taint random_password.password
+   ** terraform apply
+   ** terraform output espassword
