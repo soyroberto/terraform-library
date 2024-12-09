@@ -1,7 +1,7 @@
 variable "length" {
   description = "The length input from the user"
   type        = number
-    default     = 18
+  default     = 18
 }
 resource "random_password" "password" {
   length           = var.length
