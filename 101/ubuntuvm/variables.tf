@@ -34,5 +34,10 @@ variable "vm_size" {
   type        = string
   default     = "Standard_DS1_v2"
 }
+variable "prefix" {
+  description = "The prefix which should be used for all resources in this example"
+  type        = string
+  default     = "aueaix"
+}
 
 
