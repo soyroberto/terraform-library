@@ -40,4 +40,8 @@ variable "prefix" {
   default     = "aueaix"
 }
 
+variable "rg_la" {
+  description = "The log analtics workspace for the RG"
+  default     = "rgaueryc"
+}
 
