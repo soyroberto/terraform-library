@@ -1,10 +1,8 @@
 terraform {
   cloud {
-    organization = "soyroberto"
-
-    workspaces {
-      name = "az2"
-    }
+    #set as environment variables
+    #TF_CLOUD_ORGANIZATION
+    #TF_WORKSPACE
   }
 }
 
