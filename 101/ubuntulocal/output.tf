@@ -9,3 +9,7 @@ output "resource_group_name" {
 output "azurerm_linux_virtual_machine" {
   value = azurerm_linux_virtual_machine.main.name
 }
+
+output "vmname" {
+  value = azurerm_linux_virtual_machine.main.name
+}

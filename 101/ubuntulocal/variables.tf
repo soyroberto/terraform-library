@@ -58,6 +58,7 @@ resource "random_string" "random" {
 
 resource "random_pet" "pet" {
   length = 1
+  separator = ""
 }
 # variable "resource_group" {
 #   description = "The name of the resource group in which the resources will be created"
