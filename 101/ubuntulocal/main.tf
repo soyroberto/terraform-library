@@ -1,24 +1,34 @@
 terraform {
+
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "=3.0.0"
+    }
+  }
   cloud {
+    #use the following to authenticate:
     #set as environment variables
-    #TF_CLOUD_ORGANIZATION
-    #TF_WORKSPACE
+    #export TF_CLOUD_ORGANIZATION=<organization>
+    #export TF_WORKSPACE=<workspace>
+    #export ARM_SUBSCRIPTION_ID=<subscription_id>
   }
 }
 
 provider "azurerm" {
   features {}
-
 }
 resource "azurerm_resource_group" "rg" {
-  name     = "rgaueryc"
+  #name     = var.resource_group
+  name     = "rg-${random_pet.pet.id}"
   location = var.location
 
   tags = {
-    environment = "POC"
-    pii         = "no"
-    customer    = "troncoso"
-    iac         = "terraform"
+    environment  = "POC"
+    pii          = "no"
+    customer     = "troncoso"
+    iac          = "terraform"
+    subscription = "gomitos"
   }
 }
 
@@ -55,7 +65,7 @@ resource "azurerm_network_interface" "main" {
 }
 
 resource "azurerm_linux_virtual_machine" "main" {
-  name                = "vm-${var.prefix}"
+  name                = "vm${"random_pet.pet.id"}"
   resource_group_name = azurerm_resource_group.rg.name
   location            = azurerm_resource_group.rg.location
   size                = "Standard_F2"

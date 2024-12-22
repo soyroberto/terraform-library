@@ -40,8 +40,29 @@ variable "prefix" {
   default     = "aueaix"
 }
 
-variable "rg_la" {
-  description = "The log analtics workspace for the RG"
-  default     = "rgaueryc"
+
+variable "length" {
+  description = "Prefix length"
+  type        = number
+  default     = 4
 }
+
+resource "random_string" "random" {
+  length           = var.length
+  numeric          = false
+  upper            = true
+  special          = false
+  override_special = "a-zA-Z"
+
+}
+
+resource "random_pet" "pet" {
+  length = 1
+}
+# variable "resource_group" {
+#   description = "The name of the resource group in which the resources will be created"
+#   type        = string
+#   #default     = "rg-precious-molly"
+
+# }
 
