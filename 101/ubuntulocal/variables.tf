@@ -60,10 +60,13 @@ resource "random_pet" "pet" {
   length = 1
   separator = ""
 }
-# variable "resource_group" {
-#   description = "The name of the resource group in which the resources will be created"
-#   type        = string
-#   #default     = "rg-precious-molly"
 
-# }
+resource "random_pet" "pet2" {
+  length = 1
+  separator = ""
+}
 
+resource "random_pet" "pet3" {
+  length = 1
+  separator = ""
+}

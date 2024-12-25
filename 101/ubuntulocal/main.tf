@@ -66,7 +66,7 @@ resource "azurerm_network_interface" "main" {
 }
 
 resource "azurerm_linux_virtual_machine" "main" {
-  name                = "vm${random_pet.pet.id}"
+  name                = "vm${random_pet.pet.id}${random_pet.pet2.id}${random_pet.pet3.id}"
   resource_group_name = azurerm_resource_group.rg.name
   location            = azurerm_resource_group.rg.location
   size                = "Standard_F2"
@@ -90,6 +90,7 @@ resource "azurerm_linux_virtual_machine" "main" {
     caching              = "ReadWrite"
     storage_account_type = "Standard_LRS"
   }
+  
 
-  computer_name = "vm-${random_pet.pet.id}"
+  computer_name = "vm-${random_pet.pet.id}" #?¿ vm-${random_pet.pet.id}+${random_pet.pet2.id}+${random_pet.pet3.id}
 }
