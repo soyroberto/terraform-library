@@ -57,16 +57,16 @@ resource "random_string" "random" {
 }
 
 resource "random_pet" "pet" {
-  length = 1
+  length    = 1
   separator = ""
 }
 
 resource "random_pet" "pet2" {
-  length = 1
+  length    = 1
   separator = ""
 }
 
 resource "random_pet" "pet3" {
-  length = 1
+  length    = 1
   separator = ""
 }

@@ -90,7 +90,7 @@ resource "azurerm_linux_virtual_machine" "main" {
     caching              = "ReadWrite"
     storage_account_type = "Standard_LRS"
   }
-  
 
-  computer_name = "vm-${random_pet.pet.id}" #?¿ vm-${random_pet.pet.id}+${random_pet.pet2.id}+${random_pet.pet3.id}
+
+  computer_name = "${random_pet.pet.id}${random_pet.pet2.id}${random_pet.pet3.id}"
 }
