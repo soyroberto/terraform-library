@@ -21,4 +21,5 @@ terraform apply -auto-approve -var length=10; terraform output espassword
 terraform apply -auto-approve -var length=255; terraform output espassword
 ```
 
-**Every run will generate a new password and store it in the Azure storage account as part of the state. The storage accunt have versioning enabled, so you can always revert to a previous version of the password if needed.**
+**Every run will generate a new password and store it in the Azure storage account as part of the state.**
+**The storage account have versioning enabled, so you can always revert to a previous the password if needed.**
