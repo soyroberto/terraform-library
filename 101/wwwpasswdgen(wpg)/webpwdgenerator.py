@@ -1,16 +1,19 @@
 from flask import Flask, jsonify
+from flask_cors import CORS #This is to allow cross-origin requests
 import subprocess
 import os
 #Want to eventually make this a web app that can be accessed from a browser to generate a password
 app = Flask(__name__)
-
+#CORS(app, origins=["http://127.0.0.1:8000"])
+#CORS(app, origins=["http://192.168.2.235:8000"])
+CORS(app)
 # Set environment variables for Azure authentication
-#os.environ["ARM_CLIENT_ID"] = "<your-client-id>"
-#os.environ["ARM_CLIENT_SECRET"] = "<your-client-secret>"
-#os.environ["ARM_SUBSCRIPTION_ID"] = "<your-subscription-id>"
-#os.environ["ARM_TENANT_ID"] = "<your-tenant-id>"
+# os.environ["ARM_CLIENT_ID"] = 
+# os.environ["ARM_CLIENT_SECRET"] = "
+# os.environ["ARM_TENANT_ID"] = 
+# os.environ["ARM_SUBSCRIPTION_ID"] = 
 
-@app.route("/generate-password", methods=["GET"])
+@app.route("/pwd", methods=["GET"])
 def generate_password():
     try:
         # Run Terraform commands
