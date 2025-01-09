@@ -13,7 +13,7 @@ CORS(app)
 # os.environ["ARM_TENANT_ID"] = 
 # os.environ["ARM_SUBSCRIPTION_ID"] = 
 
-@app.route("/generate-password", methods=["GET"])
+@app.route("/pwd", methods=["GET"])
 def generate_password():
     try:
         # Run Terraform commands

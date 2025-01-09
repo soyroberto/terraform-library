@@ -27,7 +27,7 @@ variable "client_secret" {
 }
 
 
-# sh
+# sh variable setting
 # export ARM_CLIENT_ID=" "
 # export ARM_CLIENT_SECRET=""
 # export ARM_TENANT_ID=""

@@ -13,7 +13,7 @@
     <script>
         document.getElementById("generate-btn").addEventListener("click", async () => {
             try {
-                const response = await fetch("http://localhost:100/generate-password");
+                const response = await fetch("http://localhost:100/pwd");
                 if (!response.ok) {
                     throw new Error("Failed to fetch password");
                 }
