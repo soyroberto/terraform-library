@@ -8,7 +8,7 @@ resource "random_password" "password" {
   special          = true
   override_special = "!#$%&*()-_=+[]{}<>:?"
 
-   keepers = {
+  keepers = {
     # this will recreate the password if the timestamp changes: meaning every running will generate a new password
     timestamp = "${timestamp()}"
   }

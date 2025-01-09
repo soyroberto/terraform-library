@@ -5,10 +5,10 @@ import os
 app = Flask(__name__)
 
 # Set environment variables for Azure authentication
-#os.environ["ARM_CLIENT_ID"] = "<your-client-id>"
-#os.environ["ARM_CLIENT_SECRET"] = "<your-client-secret>"
-#os.environ["ARM_SUBSCRIPTION_ID"] = "<your-subscription-id>"
-#os.environ["ARM_TENANT_ID"] = "<your-tenant-id>"
+# os.environ["ARM_CLIENT_ID"] = 
+# os.environ["ARM_CLIENT_SECRET"] = "
+# os.environ["ARM_TENANT_ID"] = 
+# os.environ["ARM_SUBSCRIPTION_ID"] = 
 
 @app.route("/generate-password", methods=["GET"])
 def generate_password():
