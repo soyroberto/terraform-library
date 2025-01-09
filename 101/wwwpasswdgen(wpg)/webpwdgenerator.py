@@ -1,9 +1,12 @@
 from flask import Flask, jsonify
+from flask_cors import CORS #This is to allow cross-origin requests
 import subprocess
 import os
 #Want to eventually make this a web app that can be accessed from a browser to generate a password
 app = Flask(__name__)
-
+#CORS(app, origins=["http://127.0.0.1:8000"])
+#CORS(app, origins=["http://192.168.2.235:8000"])
+CORS(app)
 # Set environment variables for Azure authentication
 # os.environ["ARM_CLIENT_ID"] = 
 # os.environ["ARM_CLIENT_SECRET"] = "
