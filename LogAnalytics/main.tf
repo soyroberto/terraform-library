@@ -11,6 +11,8 @@ resource "azurerm_log_analytics_workspace" "law" {
   resource_group_name = azurerm_resource_group.rg.name
   sku                 = "PerGB2018" # Pricing tier
   retention_in_days   = 60          # Data retention period in days
+
+  tags = var.tags
 }
 
 # Output the workspace ID
@@ -21,8 +23,8 @@ output "log_analytics_workspace_id" {
 #USE ENVIRONMENT VARIABLES works better for security
 
 # sh variable setting
-# export ARM_CLIENT_ID=" "
-# export ARM_CLIENT_SECRET=""
-# export ARM_TENANT_ID=""
-# export ARM_SUBSCRIPTION_ID=""
-# export TF_VAR_client_secret="
+# export ARM_CLIENT_ID=
+# export ARM_CLIENT_SECRET=
+# export ARM_TENANT_ID=
+# export ARM_SUBSCRIPTION_ID=
+# export TF_VAR_client_secret=

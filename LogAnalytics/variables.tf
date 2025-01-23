@@ -37,3 +37,16 @@ variable "la_workspacename" {
   default     = "loganauexchix"
 
 }
+
+# variables.tf
+variable "tags" {
+  description = "A map of tags to assign to the Log Analytics Workspace"
+  type        = map(string)
+  default = {
+    es           = "POC"
+    Project      = "LogAnalytics"
+    Owner        = "DevOps"
+    subscription = "Chiclito"
+    zone         = "aues"
+  }
+}
